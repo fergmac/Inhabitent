@@ -15,3 +15,14 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+.widget-area {
+	
+	display: flex;
+	flex-flow: column nowrap;
+	position: absolute;	
+	right: 0;
+	
+}
+
+
