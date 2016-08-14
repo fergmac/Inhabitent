@@ -40,6 +40,58 @@
 // }
 
 // /* Comments */
+.comment-form {
+	display: flex;
+	flex-flow: row wrap;
+}
+.comment-form-comment {
+	width: 100%;
+	
+
+}
+
+.comment-reply-title {
+	display: block;
+}
+
+
+textarea {
+	width: 100%;
+	flex: 1 0 100%;
+}
+
+.comment-form-email,
+.comment-form-author {
+	
+	flex: 1 0 50%;
+
+	label {
+		display: block;
+	}
+	input {
+	width: 98%;
+
+	}
+}
+
+.comment-form-url {
+	flex: 1 0 100%;
+	input {
+		width: 100%;
+	}
+}
+ 
+.required {
+	color: $color__brand-orange;
+}
+
+input.submit {
+	background: $color__brand-green;
+	color: white;
+	border-radius: none;
+	padding: 1rem 2rem;
+
+}
 
 // .comment-content a {
 // 	word-wrap: break-word;
@@ -67,6 +119,8 @@ body {
 // .widget-area {
 // 	flex:1 0 25%;
 // }
+
+/* Posts */
 .post {
 	position: relative
 }
@@ -90,10 +144,27 @@ body {
 .entry-meta {
 	position: absolute;
 	right: 0;
-	top: 75%;
+	top: 500px;
 	color: white;
 	display: inline-block;
 	background: $color__brand-green;
+	text-transform: uppercase;
+}
+
+.entry-foot {
+	display: block;
+}
+
+.cat-links,
+.tags-links {
+	display: inline-block;
+	text-transform: uppercase;
+	padding-right: 10px;
+}
+
+.nav-previous,
+.nav-next {
+	display: none;
 }
 
 
