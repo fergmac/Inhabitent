@@ -470,7 +470,7 @@ a {
   -ms-flex-pack: justify;
       justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
-  padding: 0rem 10rem; }
+  padding: 1rem 5rem; }
 
 .site-branding {
   background: url("../../images/logos/inhabitent-logo-tent.svg");
@@ -492,6 +492,9 @@ a {
   padding-right: 2rem; }
   #primary-menu li {
     padding: 0rem 1rem; }
+  #primary-menu a {
+    color: #248A83;
+    text-transform: uppercase; }
 
 .menu-toggle {
   position: absolute;
@@ -504,9 +507,38 @@ a {
   width: 100%;
   height: 400px; }
 
+.footer-block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-pack: space around;
+      justify-content: space around;
+  -ms-flex-align: center;
+      align-items: center; }
+
 .content-area {
   width: 700px;
   margin: 0 auto; }
+
+.contact,
+.business-hours {
+  -ms-flex: 1 0 25%;
+      flex: 1 0 25%; }
+
+.brand-image {
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%;
+  background: url("../../images/logos/inhabitent-logo-text.svg") no-repeat;
+  background-size: 300px 100px;
+  width: 100%;
+  height: 100px; }
+
+.site-info {
+  text-transform: uppercase;
+  text-align: center;
+  -ms-flex-line-pack: end;
+      align-content: flex-end; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -600,14 +632,30 @@ body {
   -ms-flex-pack: centre;
       justify-content: centre; }
 
-.entry-meta,
+.post {
+  position: relative; }
+
+.wp-post-image {
+  width: 100%; }
+
 .entry-title {
   display: inline-block;
   position: absolute;
   background: #248A83;
   left: 0;
-  top: 0;
+  top: 10px;
   margin: rem; }
+
+.entry-title a {
+  color: white; }
+
+.entry-meta {
+  position: absolute;
+  right: 0;
+  top: 75%;
+  color: white;
+  display: inline-block;
+  background: #248A83; }
 
 /*--------------------------------------------------------------
 # Media

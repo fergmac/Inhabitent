@@ -13,15 +13,23 @@
 
 				<div class="footer-block">
 					<div class="contact">
+						<p>contact info</p>
+						<a href="#">info@inhabitent.com</a>
+						<a href="#">778-456-7891</a>
+						<a hreft="#"></a>
 					</div>
 					<div class="business-hours">
+						<p>business hours</p>
+						<p>Monday-Friday: 9am to 5pm</p>
+						<p>Saturday: 10am to 2pm</p>
+						<p>Sunday: Closed</p>
 					</div>
 					<div class="brand-image">
 					</div>
 				</div>
 				<div class="site-info">
-					<div class="container">
-
+					<div class="container">	
+						<p>copyright &copy; 2016 inhabitent</p>
 					</div>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->

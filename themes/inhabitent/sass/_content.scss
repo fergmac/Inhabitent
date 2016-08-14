@@ -67,15 +67,33 @@ body {
 // .widget-area {
 // 	flex:1 0 25%;
 // }
-.entry-meta,
+.post {
+	position: relative
+}
+.wp-post-image {
+	width:100%;
+}
 .entry-title {
 	display: inline-block;
 	position: absolute;
 	background: $color__brand-green;
 	left: 0;
-	top: 0;
+	top: 10px;
 	margin: rem;
 	// padding: 2rem;
+}
+.entry-title a{
+	color: white;
+
+}
+
+.entry-meta {
+	position: absolute;
+	right: 0;
+	top: 75%;
+	color: white;
+	display: inline-block;
+	background: $color__brand-green;
 }
 
 
