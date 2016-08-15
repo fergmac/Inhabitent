@@ -121,11 +121,26 @@ body {
 // }
 
 /* Posts */
+.site-content {
+		display: flex;
+		flex-flow: row nowrap;
+		width: 800px;
+		margin: 0 auto;
+
+}
+
 .post {
 	position: relative
 }
 .wp-post-image {
-	width:100%;
+	display: block;
+	height:600px;
+	width:73%;
+
+}
+.widget-area {
+	width: 27%;
+	border-left: $main__solid-border;
 }
 .entry-title {
 	display: inline-block;
@@ -166,5 +181,6 @@ body {
 .nav-next {
 	display: none;
 }
+
 
 

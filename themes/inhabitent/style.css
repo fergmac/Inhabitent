@@ -676,11 +676,25 @@ body {
       justify-content: centre; }
 
 /* Posts */
+.site-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  width: 800px;
+  margin: 0 auto; }
+
 .post {
   position: relative; }
 
 .wp-post-image {
-  width: 100%; }
+  display: block;
+  height: 600px;
+  width: 73%; }
+
+.widget-area {
+  width: 27%;
+  border-left: 1px solid #e1e1e1; }
 
 .entry-title {
   display: inline-block;
