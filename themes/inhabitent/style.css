@@ -462,6 +462,10 @@ a {
 
 /* Small menu. */
 /*Logo*/
+.content-area {
+  width: 700px;
+  margin: 0 auto; }
+
 .site-header {
   display: -ms-flexbox;
   display: flex;
@@ -470,7 +474,9 @@ a {
   -ms-flex-pack: justify;
       justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
-  padding: 1rem 5rem; }
+  padding-top: .5rem;
+  padding-left: 6rem;
+  padding-right: 6rem; }
 
 .site-branding {
   background: url("../../images/logos/inhabitent-logo-tent.svg");
@@ -505,21 +511,18 @@ a {
   background: url("../../images/dark-wood@2x.png");
   background-size: 100% auto;
   width: 100%;
-  height: 400px; }
+  height: 350px; }
 
 .footer-block {
+  height: 80%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-  -ms-flex-pack: space around;
-      justify-content: space around;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   -ms-flex-align: center;
       align-items: center; }
-
-.content-area {
-  width: 700px;
-  margin: 0 auto; }
 
 .contact,
 .business-hours {
@@ -615,8 +618,9 @@ a {
   display: flex;
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-  position: absolute;
-  right: 0; }
+  padding-left: 5%;
+  width: 27%;
+  border-left: 1px solid #e1e1e1; }
 
 /* Posts and pages */
 .comment-form {
@@ -667,13 +671,14 @@ body {
 
 .content-area {
   width: 800px;
-  margin: 0 auto;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
   -ms-flex-pack: centre;
-      justify-content: centre; }
+      justify-content: centre;
+  padding-top: 50px;
+  padding-right: 5%;
+  width: 73%; }
 
 /* Posts */
 .site-content {
@@ -681,20 +686,17 @@ body {
   display: flex;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-  width: 800px;
+  width: 1000px;
   margin: 0 auto; }
 
 .post {
-  position: relative; }
+  position: relative;
+  display: block;
+  height: 600px; }
 
 .wp-post-image {
-  display: block;
-  height: 600px;
-  width: 73%; }
-
-.widget-area {
-  width: 27%;
-  border-left: 1px solid #e1e1e1; }
+  height: 400px;
+  width: 100%; }
 
 .entry-title {
   display: inline-block;
@@ -710,7 +712,7 @@ body {
 .entry-meta {
   position: absolute;
   right: 0;
-  top: 500px;
+  top: 375px;
   color: white;
   display: inline-block;
   background: #248A83;

@@ -63,3 +63,20 @@ function inhabitent_login_logo_url_title() {
     return 'Inhabitent Supply Co.';
 }
 add_filter( 'login_headertitle', 'inhabitent_login_logo_url_title' );
+
+
+/**
+* Adjusting archive page loop for products
+*/
+
+function inhabitent_modifying_product_archive_query($query) {
+    if (is_post_type_archive('product') && !is_admin() && $query->is_main_query()) {
+        $query->set( 'posts_per_page', 16);
+        $query->set( 'order', 'ASC');
+        $query->set( 'orderby', 'title');
+    }
+}
+add_action( 'pre_get_posts', 'inhabitent_modifying_product_archive_query' );
+
+
+

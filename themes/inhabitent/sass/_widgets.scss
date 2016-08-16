@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 
 .widget {
+	
 	margin: 0 0 $base__space-unit;
 
 	/* Make sure select elements fit in widgets. */
@@ -12,16 +13,23 @@
 }
 
 /* Search widget. */
+
 .widget_search .search-submit {
 	display: none;
 }
 
 .widget-area {
-	
+	// height: 100%;
 	display: flex;
 	flex-flow: column nowrap;
-	position: absolute;	
-	right: 0;
+	// position: absolute;	
+	padding-left: 5%;
+	// right: 0;
+	width: 27%;
+	border-left: $main__solid-border;
+	
+}
+.widget-area {
 	
 }
 
