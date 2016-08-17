@@ -792,3 +792,25 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.shop-stuff-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .shop-stuff-container .product-type-block {
+    -ms-flex: 1 0 25%;
+        flex: 1 0 25%; }
+
+.inhabitent-journal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap; }
+  .inhabitent-journal li {
+    list-style: none; }
+
+.inhabitent-journal-block {
+  display: block;
+  width: 30%; }

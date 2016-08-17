@@ -1,0 +1,25 @@
+// Shop Stuff
+
+.shop-stuff-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	.product-type-block {
+		flex: 1 0 25%;
+	}
+}
+
+.inhabitent-journal {
+	display: flex;
+	flex-flow: row nowrap;
+
+	li{
+		list-style: none;
+	}
+}
+
+.inhabitent-journal-block {
+		display: block;
+		width: 30%;
+		
+	}
