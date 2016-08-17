@@ -524,8 +524,9 @@ a {
   -ms-flex-align: center;
       align-items: center; }
 
-.contact,
+.contact-info,
 .business-hours {
+  list-style: none;
   -ms-flex: 1 0 25%;
       flex: 1 0 25%; }
 

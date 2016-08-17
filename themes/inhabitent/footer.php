@@ -13,16 +13,20 @@
 
 				<div class="footer-block">
 					<div class="contact">
-						<p>contact info</p>
-						<a href="#">info@inhabitent.com</a>
-						<a href="#">778-456-7891</a>
-						<a hreft="#"></a>
+						<ul class="contact-info">
+						<li><h1>contact info</h1></li>
+						<li><a href="fa fa-envelope"  aria-hidden="true">info@inhabitent.com</a></li>
+						<li><a href="#">778-456-7891</a></li>
+						<li><a href="#"></a></li>
+						</ul>
 					</div>
 					<div class="business-hours">
-						<p>business hours</p>
-						<p>Monday-Friday: 9am to 5pm</p>
-						<p>Saturday: 10am to 2pm</p>
-						<p>Sunday: Closed</p>
+						<ul class="business-hours">
+						<li><h1>business hours</h1></li>
+						<li><p>Monday-Friday: 9am to 5pm</p></li>
+						<li><p>Saturday: 10am to 2pm</p></li>
+						<li><p>Sunday: Closed</p></li>
+						</ul><li>
 					</div>
 					<div class="brand-image">
 					</div>
