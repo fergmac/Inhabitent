@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function red_starter_body_classes( $classes ) {
+function inhabitent_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -19,7 +19,7 @@ function red_starter_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'red_starter_body_classes' );
+add_filter( 'body_class', 'inhabitent_body_classes' );
 
 /**
 * Removing editor links from Appearance/Plugins sub-menus.
@@ -77,6 +77,36 @@ function inhabitent_modifying_product_archive_query($query) {
     }
 }
 add_action( 'pre_get_posts', 'inhabitent_modifying_product_archive_query' );
+
+/**
+* adding customizable image to about page
+*/
+
+
+function inhabitent_inline_styles_method() {
+    if (!is_page_template('page-about.php')) {
+            return;
+
+    };
+        $imageUrl = CFS()->get('header_image');
+            if(!$imageUrl){
+                return;
+
+            };
+
+        $custom_css = "
+                .about-page-hero{
+
+                        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url({$imageUrl}) no-repeat bottom;
+                        background-size: cover;
+                        height: 100vh;
+                        
+                }";
+        wp_add_inline_style( 'inhabitent-style', $custom_css );
+    
+}
+
+add_action( 'wp_enqueue_scripts', 'inhabitent_inline_styles_method' );
 
 
 

@@ -462,10 +462,6 @@ a {
 
 /* Small menu. */
 /*Logo*/
-.content-area {
-  width: 700px;
-  margin: 0 auto; }
-
 .site-header {
   display: -ms-flexbox;
   display: flex;
@@ -621,7 +617,8 @@ a {
       flex-flow: column nowrap;
   padding-left: 5%;
   width: 27%;
-  border-left: 1px solid #e1e1e1; }
+  border-left: 1px solid #e1e1e1;
+  margin-right: 10%; }
 
 /* Posts and pages */
 .comment-form {
@@ -671,7 +668,6 @@ body {
   box-sizing: border-box; }
 
 .content-area {
-  width: 800px;
   display: block;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
@@ -679,16 +675,16 @@ body {
       justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  width: 73%; }
+  width: 73%;
+  margin-left: 10%; }
 
 /* Posts */
 .site-content {
+  height: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-  width: 1000px;
-  margin: 0 auto; }
+      flex-flow: row nowrap; }
 
 .post {
   position: relative;
