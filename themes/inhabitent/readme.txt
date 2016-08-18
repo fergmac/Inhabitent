@@ -1,4 +1,4 @@
-=== RED Starter Theme ===
+=== Inhabitent Theme ===
 
 Contributors: automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
@@ -9,7 +9,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A starter theme called RED Starter Theme, or underscores.
+A starter theme called Inhabitent Theme, or underscores.
 
 == Description ==
 
@@ -25,7 +25,7 @@ Hi. I'm a starter theme called RED Starter Theme, or underscores, if you like. I
 
 = Does this theme support any plugins? =
 
-RED Starter Theme includes support for Infinite Scroll in Jetpack.
+Inhabitent Theme includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
