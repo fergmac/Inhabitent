@@ -1,5 +1,25 @@
 // Shop Stuff
 
+.inhabitent-hero {
+	height: 100vh;
+	background: 
+
+	linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+
+	url('../../images/logos/inhabitent-logo-full.svg')no-repeat center 200px,
+	url('../../images/home-hero.jpg')no-repeat;
+	background-size:cover, auto ;
+	
+	
+}	
+
+
+
+
+
+
+
+
 .shop-stuff-container {
 	display: flex;
 	flex-flow: row nowrap;

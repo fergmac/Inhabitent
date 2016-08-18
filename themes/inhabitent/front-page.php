@@ -9,6 +9,9 @@ get_header(); ?>
 
 	<div id="primary" cla	ss="content-area">
 		<main id="main" class="site-main" role="main">
+	<div class="inhabitent-hero">
+	
+	</div>
 	<h2>Shop Stuff</h2>
 	<div class="shop-stuff-container">
 

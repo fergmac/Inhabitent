@@ -551,7 +551,6 @@ a {
   padding: 4rem 8rem; }
 
 .brand-image {
-  background-size: 300px 60%;
   width: auto;
   height: 60%; }
 
@@ -829,6 +828,11 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.inhabitent-hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/logos/inhabitent-logo-full.svg") no-repeat center 200px, url("../../images/home-hero.jpg") no-repeat;
+  background-size: cover, auto; }
+
 .shop-stuff-container {
   display: -ms-flexbox;
   display: flex;
