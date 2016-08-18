@@ -462,6 +462,10 @@ a {
 
 /* Small menu. */
 /*Logo*/
+.content-area {
+  width: 900px;
+  margin: 0 auto; }
+
 .site-header {
   display: -ms-flexbox;
   display: flex;
@@ -514,12 +518,22 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.footer-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  margin: 4rem 4rem; }
 
 .footer-block h3 {
   color: #d99054;
   text-transform: uppercase; }
 
+.footer-block p,
 .footer-block a {
   color: white; }
 
@@ -533,8 +547,10 @@ a {
 .contact-info {
   line-height: 2rem; }
 
+.brand-image-container {
+  padding: 4rem 8rem; }
+
 .brand-image {
-  background: url("../../images/logos/inhabitent-logo-text.svg") no-repeat;
   background-size: 300px 60%;
   width: auto;
   height: 60%; }
@@ -626,6 +642,11 @@ a {
   border-left: 1px solid #e1e1e1;
   margin-right: 10%; }
 
+.widget_archive ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
 /* Posts and pages */
 .comment-form {
   display: -ms-flexbox;
@@ -670,10 +691,17 @@ input.submit {
   border-radius: none;
   padding: 1rem 2rem; }
 
+.comment-content a {
+  word-wrap: break-word; }
+
+.bypostauthor {
+  display: block; }
+
 body {
   box-sizing: border-box; }
 
 .content-area {
+  margin: 0 auto;
   display: block;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
@@ -681,7 +709,6 @@ body {
       justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  width: 73%;
   margin-left: 10%; }
 
 /* Posts */
@@ -690,7 +717,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+  margin: 0 auto; }
 
 .post {
   position: relative;
@@ -700,6 +728,9 @@ body {
 .wp-post-image {
   height: 400px;
   width: 100%; }
+
+.entry-content {
+  height: 400px; }
 
 .entry-title {
   display: inline-block;
@@ -821,7 +852,7 @@ object {
   display: block;
   width: 30%; }
 
-.product-content-area {
+n.product-content-area {
   width: 1120px;
   margin-left: auto;
   margin-right: auto; }

@@ -134,11 +134,11 @@ a {
 
 /*Logo*/
 
-// .content-area {
-//   width: 700px;
-//   margin: 0 auto;
+.content-area {
+  width: 900px;
+  margin: 0 auto;
  
-// }
+}
 .site-header {
 	display: flex;
 	flex-flow: row nowrap;
@@ -207,35 +207,48 @@ a {
 	height: 80%;
 	display: flex;
 	flex-flow: row nowrap;
+	justify-content: space-between;
 
+}
+
+.footer-text {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 4rem 4rem;
 }
 
 .footer-block h3{
 	color: $color__brand-orange;	
 	text-transform: uppercase;
 }
+.footer-block p,
 .footer-block a{
 	color: white;
 }
 
 .footer-week-days {
 	font-weight: bold;
+	
 }
 
 .contact-info,
 .business-hours {
 	list-style: none;
 	// flex: 1 0 25%;
+
 }
 
 .contact-info {
 	line-height: 2rem;
 }
 
+.brand-image-container {
+	padding: 4rem 8rem;
+}
+
 .brand-image {
-	
+
 	// flex: 1 0 50%;
-	background: url('../../images/logos/inhabitent-logo-text.svg') no-repeat;
 	background-size: 300px 60%;
 	width: auto;
 	height: 60%;

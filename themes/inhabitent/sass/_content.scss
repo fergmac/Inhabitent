@@ -93,25 +93,25 @@ input.submit {
 
 }
 
-// .comment-content a {
-// 	word-wrap: break-word;
-// }
-// .bypostauthor {
-// 	display: block;
-// }
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
 body {
 	box-sizing: border-box;
 }
 
 .content-area	 {
   // width: 800px;
-  // margin: 0 auto;
+  margin: 0 auto;
   display: block;
   flex-flow: row nowrap;
   justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  width:73%;
+  // width:73%;
   margin-left: 10%;	
  
 }
@@ -119,13 +119,13 @@ body {
 
 /* Posts */
 
-.site-content {
+.site-content {	
 
 		height: 100%;
 		display: flex;
 		flex-flow: row nowrap;
 		// width: 1000px;
-		// margin: 0 auto;
+		margin: 0 auto;
 
 }
 
@@ -141,14 +141,11 @@ body {
 	width: 100%;
 	
 }
-// .widget-area {
-// 	width: 27%;
-// 	border-left: $main__solid-border;
-// }
+
 
 .entry-content {
 
-
+height: 400px;
 }
 .entry-title {
 	display: inline-block;
