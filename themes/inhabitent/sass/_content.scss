@@ -54,7 +54,11 @@ body {
   padding-right: 5%;
   // width:73%;
   margin-left: 10%;	
+  height: 100%;
  
+}
+.site-main h2 {
+	text-align: center;
 }
 
 
@@ -84,10 +88,10 @@ body {
 }
 
 
-.entry-content {
+// .entry-content {
 
-height: 375px;
-}
+// height: 375px;
+// }
 
 .entry-title {
 	display: inline-block;
@@ -116,12 +120,12 @@ height: 375px;
 	display: inline-block;
 	background: $color__brand-green;
 	text-transform: uppercase;
+	.updated {
+		display: none;
+	}
 }
 
-// .entry-footer {
-// 	display: block;
-// 	height: 100px
-// }
+
 
 .cat-links,
 .tags-links {

@@ -14,9 +14,11 @@
 
 
 .shop-stuff-container {
+	
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-between;
+	justify-content: center;
+	margin-left: 2rem;
 	.product-type-block {
 		flex: 1 0 25%;
 	}
@@ -36,3 +38,24 @@
 		width: 30%;
 		
 	}
+
+.product-type-block img{
+	width: 70px;
+	height: 70px;
+}
+
+.product-type-block {
+	height: 100%;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	max-width: 18%;
+	margin-left: 1rem;
+	padding: 1rem 1rem;
+}
+
+.product-type-block a{
+	text-transform: uppercase;
+	padding: .5rem 1rem;
+	color: white;
+	background: $color__brand-green;
+}

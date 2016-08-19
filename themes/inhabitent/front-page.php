@@ -22,12 +22,14 @@ get_header(); ?>
     	?>
 		<?php foreach ( $terms as $term ) : ?>
 		<div class="product-type-block">
-			<a href=" <?php get_term_link($term); ?> "><?php echo $term->name. ' Stuff'
-			?></a> 
+			
 			
 			<img src="<?php echo get_template_directory_uri().'/images/product-type-icons/'.$term->slug. '.svg';?>" alt = ""/>
 
 			<p><?php echo $term->description ?></p>
+
+			<a href=" <?php get_term_link($term); ?> "><?php echo $term->name. ' Stuff'
+			?></a> 
 		</div>
 		
 		<?php endforeach; ?>

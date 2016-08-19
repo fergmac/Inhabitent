@@ -604,7 +604,11 @@ body {
       justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  margin-left: 10%; }
+  margin-left: 10%;
+  height: 100%; }
+
+.site-main h2 {
+  text-align: center; }
 
 /* Blog Posts */
 .site-content {
@@ -622,9 +626,6 @@ body {
 .wp-post-image {
   height: 500px;
   width: 100%; }
-
-.entry-content {
-  height: 375px; }
 
 .entry-title {
   display: inline-block;
@@ -648,6 +649,8 @@ body {
   display: inline-block;
   background: #248A83;
   text-transform: uppercase; }
+  .entry-meta .updated {
+    display: none; }
 
 .cat-links,
 .tags-links {
@@ -751,8 +754,9 @@ object {
   display: flex;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-left: 2rem; }
   .shop-stuff-container .product-type-block {
     -ms-flex: 1 0 25%;
         flex: 1 0 25%; }
@@ -768,6 +772,24 @@ object {
 .inhabitent-journal-block {
   display: block;
   width: 30%; }
+
+.product-type-block img {
+  width: 70px;
+  height: 70px; }
+
+.product-type-block {
+  height: 100%;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  max-width: 18%;
+  margin-left: 1rem;
+  padding: 1rem 1rem; }
+
+.product-type-block a {
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  color: white;
+  background: #248A83; }
 
 n.product-content-area {
   width: 1120px;
@@ -790,11 +812,9 @@ n.product-content-area {
 .site-footer {
   background: url("../../images/dark-wood@2x.png");
   background-size: 100% auto;
-  width: 100%;
-  height: 350px; }
+  width: 100%; }
 
 .footer-block {
-  height: 80%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
