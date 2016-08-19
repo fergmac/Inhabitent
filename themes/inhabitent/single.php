@@ -14,15 +14,20 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
+			
 			<?php the_post_navigation(); ?>
-
+			<div class="social-buttons">
+				<button type="button" class="post-button"><i class="fa fa-facebook"  aria-hidden="true"></i>Like</button>
+				<button type="button" class="post-button"><i class="fa fa-twitter"  aria-hidden="true"></i>Tweet</button>
+				<button type="button" class="post-button"><i class="fa fa-pinterest"  aria-hidden="true"></i>Pin</button>
+			</div>
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
 			?>
-
+		
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->

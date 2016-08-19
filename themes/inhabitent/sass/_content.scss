@@ -86,7 +86,7 @@ body {
 
 .entry-content {
 
-height: 200px;
+height: 375px;
 }
 
 .entry-title {
@@ -118,9 +118,10 @@ height: 200px;
 	text-transform: uppercase;
 }
 
-.entry-foot {
-	display: block;
-}
+// .entry-footer {
+// 	display: block;
+// 	height: 100px
+// }
 
 .cat-links,
 .tags-links {
@@ -136,10 +137,24 @@ height: 200px;
 
 
 .read-more {
-	
 	border: 1px solid black;
 	padding: .75rem 1.5rem;
 
 }
 
+.social-buttons {
+	padding: 1rem 0;
+}
 
+.post-button {
+	text-transform: uppercase;
+	background: #fff;
+	border-radius: 0;
+	padding: .75rem 1.5rem;
+
+}
+.fa-facebook,
+.fa-twitter,
+.fa-pinterest {
+	padding-right:.5rem;
+}
