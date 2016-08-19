@@ -872,3 +872,17 @@ n.product-content-area {
 .single-product-block {
   -ms-flex: 1 0 25%;
       flex: 1 0 25%; }
+
+.about-info {
+  display: block;
+  padding: 0 25%; }
+  .about-info h2 {
+    text-align: center;
+    text-transform: uppercase; }
+
+.about-page-hero h1 {
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: center;
+  padding-top: 15%; }
