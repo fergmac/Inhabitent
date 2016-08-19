@@ -39,66 +39,7 @@
 // 	display: none;
 // }
 
-// /* Comments */
-.comment-form {
-	display: flex;
-	flex-flow: row wrap;
-}
-.comment-form-comment {
-	width: 100%;
-	
 
-}
-
-.comment-reply-title {
-	display: block;
-}
-
-
-textarea {
-	width: 100%;
-	flex: 1 0 100%;
-}
-
-.comment-form-email,
-.comment-form-author {
-	
-	flex: 1 0 50%;
-
-	label {
-		display: block;
-	}
-	input {
-	width: 98%;
-
-	}
-}
-
-.comment-form-url {
-	flex: 1 0 100%;
-	input {
-		width: 100%;
-	}
-}
- 
-.required {
-	color: $color__brand-orange;
-}
-
-input.submit {
-	background: $color__brand-green;
-	color: white;
-	border-radius: none;
-	padding: 1rem 2rem;
-
-}
-
-.comment-content a {
-	word-wrap: break-word;
-}
-.bypostauthor {
-	display: block;
-}
 body {
 	box-sizing: border-box;
 }
@@ -117,27 +58,27 @@ body {
 }
 
 
-/* Posts */
+/* Blog Posts */
 
 .site-content {	
 
 		height: 100%;
 		display: flex;
 		flex-flow: row nowrap;
-		// width: 1000px;
-		margin: 0 auto;
+		// margin: 0 auto;
 
 }
 
+// moves blog titles inside of image
 .post {
 	position: relative;
 	display: block;
-	height:600px;
-	
+	height: auto;
 
 }
+
 .wp-post-image {
-	height: 400px;
+	height: 500px;
 	width: 100%;
 	
 }
@@ -145,16 +86,22 @@ body {
 
 .entry-content {
 
-height: 400px;
+height: 200px;
 }
+
 .entry-title {
 	display: inline-block;
 	position: absolute;
 	background: $color__brand-green;
+	padding: .75rem 1.5rem;
 	left: 0;
 	top: 10px;
-	margin: rem;
-	// padding: 2rem;
+	text-transform: uppercase;
+	max-width: 75%;
+	margin-top: 2.25rem;
+
+	
+	
 }
 .entry-title a{
 	color: white;
@@ -164,7 +111,7 @@ height: 400px;
 .entry-meta {
 	position: absolute;
 	right: 0;
-	top: 375px;
+	top: 475px;
 	color: white;
 	display: inline-block;
 	background: $color__brand-green;
@@ -188,7 +135,11 @@ height: 400px;
 }
 
 
-// About Page
+.read-more {
+	
+	border: 1px solid black;
+	padding: .75rem 1.5rem;
 
+}
 
 

@@ -1,0 +1,60 @@
+// /* Comments */
+.comment-form {
+	display: flex;
+	flex-flow: row wrap;
+}
+.comment-form-comment {
+	width: 100%;
+	
+
+}
+
+.comment-reply-title {
+	display: block;
+}
+
+
+textarea {
+	width: 100%;
+	flex: 1 0 100%;
+}
+
+.comment-form-email,
+.comment-form-author {
+	
+	flex: 1 0 50%;
+
+	label {
+		display: block;
+	}
+	input {
+	width: 98%;
+
+	}
+}
+
+.comment-form-url {
+	flex: 1 0 100%;
+	input {
+		width: 100%;
+	}
+}
+ 
+.required {
+	color: $color__brand-orange;
+}
+
+input.submit {
+	background: $color__brand-green;
+	color: white;
+	border-radius: none;
+	padding: 1rem 2rem;
+
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
