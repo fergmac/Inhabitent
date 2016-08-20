@@ -10,6 +10,7 @@ get_header(); ?>
 	<div id="primary" cla	ss="content-area">
 		<main id="main" class="site-main" role="main">
 	<div class="inhabitent-hero">
+	<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg' ?>" class="inhabitent-about-logo" alt="Inhabitent About Logo">
 	
 	</div>
 	<h2>Shop Stuff</h2>
@@ -28,7 +29,7 @@ get_header(); ?>
 
 			<p><?php echo $term->description ?></p>
 
-			<a href=" <?php get_term_link($term); ?> "><?php echo $term->name. ' Stuff'
+			<a href=" <?php get_term_link($term); ?> " ><?php echo $term->name. ' Stuff'
 			?></a> 
 		</div>
 		
@@ -43,18 +44,26 @@ get_header(); ?>
    		?>
    		<?php foreach ( $blog_posts as $post ) : setup_postdata( $post ); ?>
    		<div class="inhabitent-journal-block">
-		<ul>
-	   		<li><?php the_post_thumbnail(); ?></li> 
+		
+	   		<div class="journal-block-image"><?php the_post_thumbnail(); ?></div> 
+	   		<div class="journal-block-info">
+			
+		   			<p><?php the_date(); ?></p>
 
-	   		<li><p><?php the_date(); ?></p></li>
+				<a><h1><?php the_title(); ?></h1></a>
 
-			<li><h1><?php the_title(); ?></h1></li>
-
-			<li><a href="<?php the_permalink(); ?>"><div class="read-entry">read entry</div></a></li>
-		</ul>	
+				<a href="<?php the_permalink(); ?>"><div class="read-entry">read entry</div></a>
+			
+			</div>	
 		</div>
    		<?php endforeach; wp_reset_postdata(); ?>
 	</div>
+	<div class="latest-adventures">Latest Adventures</div>
+		<div class="adventures-container">
+			<div class="leftside-adventures">
+				<div class="rightside-adventures">
+			</div>
+		</div>
 
 
 

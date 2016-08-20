@@ -1,4 +1,28 @@
-n.product-content-area {
+.shop-stuff-header {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.product-list-style {
+	text-transform: uppercase;
+
+
+	ul {
+
+		list-style: none;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+
+
+	}
+	a {
+		padding: 2rem 2rem;
+	}
+}
+
+
+.product-content-area {
 	
 	width: 1120px;
 	margin-left: auto;
@@ -9,8 +33,24 @@ n.product-content-area {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+
 }
 
 .single-product-block {
+	padding: 1rem 1rem;
+	margin: 0;
 	flex: 1 0 25%;
+	.wp-post-image {
+	max-height: 250px;
+	}
+}
+.thumbnail-wrapper{
+	height: 250px;
+	overflow: hidden;
+	border-bottom: 5px solid #e1e1e1;
+}
+.product-info {
+	border: 1px solid #e1e1e1;
+	padding: 1rem 1rem;
+	
 }

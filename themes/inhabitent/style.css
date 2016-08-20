@@ -746,8 +746,15 @@ object {
 /* Front page */
 .inhabitent-hero {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/logos/inhabitent-logo-full.svg") no-repeat center 200px, url("../../images/home-hero.jpg") no-repeat;
-  background-size: cover, auto; }
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/home-hero.jpg") no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .inhabitent-hero .inhabitent-about-logo {
+    -ms-flex-item-align: center;
+        align-self: center; }
 
 .shop-stuff-container {
   display: -ms-flexbox;
@@ -755,23 +762,46 @@ object {
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
   -ms-flex-pack: center;
-      justify-content: center;
-  margin-left: 2rem; }
+      justify-content: center; }
   .shop-stuff-container .product-type-block {
     -ms-flex: 1 0 25%;
-        flex: 1 0 25%; }
+        flex: 1 0 25%;
+    border-top: 5px solid #e1e1e1; }
 
 .inhabitent-journal {
   display: -ms-flexbox;
   display: flex;
+  margin: 0rem 6rem;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+  padding: 0 2rem; }
   .inhabitent-journal li {
     list-style: none; }
 
 .inhabitent-journal-block {
   display: block;
-  width: 30%; }
+  width: 30%;
+  border: 1px solid #e1e1e1;
+  margin: 1rem; }
+  .inhabitent-journal-block .wp-post-image {
+    height: 20%;
+    border-bottom: 5px solid #e1e1e1; }
+  .inhabitent-journal-block .read-entry {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    border: 1px solid #e1e1e1;
+    text-transform: uppercase; }
+
+.journal-block-info {
+  padding: 0rem 1rem;
+  line-height: 1; }
+  .journal-block-info a {
+    font-size: 1rem; }
+  .journal-block-info h1 {
+    font-size: 1.5rem; }
+  .journal-block-info ul {
+    padding: 0;
+    text-align: left; }
 
 .product-type-block img {
   width: 70px;
@@ -791,7 +821,24 @@ object {
   color: white;
   background: #248A83; }
 
-n.product-content-area {
+.shop-stuff-header {
+  text-align: center;
+  text-transform: uppercase; }
+
+.product-list-style {
+  text-transform: uppercase; }
+  .product-list-style ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .product-list-style a {
+    padding: 2rem 2rem; }
+
+.product-content-area {
   width: 1120px;
   margin-left: auto;
   margin-right: auto; }
@@ -805,8 +852,21 @@ n.product-content-area {
       justify-content: space-between; }
 
 .single-product-block {
+  padding: 1rem 1rem;
+  margin: 0;
   -ms-flex: 1 0 25%;
       flex: 1 0 25%; }
+  .single-product-block .wp-post-image {
+    max-height: 250px; }
+
+.thumbnail-wrapper {
+  height: 250px;
+  overflow: hidden;
+  border-bottom: 5px solid #e1e1e1; }
+
+.product-info {
+  border: 1px solid #e1e1e1;
+  padding: 1rem 1rem; }
 
 /* Footer */
 .site-footer {

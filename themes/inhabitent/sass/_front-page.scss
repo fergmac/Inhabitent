@@ -5,10 +5,14 @@
 	background: 
 
 	linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-
-	url('../../images/logos/inhabitent-logo-full.svg')no-repeat center 200px,
 	url('../../images/home-hero.jpg')no-repeat;
-	background-size:cover, auto ;
+	background-size:cover;	
+	display: flex;
+	justify-content: center;
+	.inhabitent-about-logo {
+		align-self: center;
+	}
+
 	
 }	
 
@@ -18,27 +22,62 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
-	margin-left: 2rem;
+	
+
 	.product-type-block {
 		flex: 1 0 25%;
+		border-top: 5px solid #e1e1e1;
+
 	}
 }
 
 .inhabitent-journal {
 	display: flex;
+	margin: 0rem 6rem;
 	flex-flow: row nowrap;
+	padding: 0 2rem;
 
 	li{
 		list-style: none;
 	}
 }
 
+
 .inhabitent-journal-block {
 		display: block;
 		width: 30%;
-		
+		border: 1px solid #e1e1e1;
+		margin: 1rem;
+
+		.wp-post-image {
+			height: 20%;
+			border-bottom: 5px solid #e1e1e1;
+		}
+		.read-entry {
+			display: inline-block;
+			padding: .75rem 1.5rem;
+			border: 1px solid #e1e1e1;
+			text-transform: uppercase;
+
+		}		
 	}
 
+.journal-block-info {
+	
+	padding: 0rem 1rem;
+	line-height: 1;
+	a {
+		font-size: 1rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	 ul{
+	padding: 0;
+	text-align: left;
+	}
+}
 .product-type-block img{
 	width: 70px;
 	height: 70px;
@@ -59,3 +98,4 @@
 	color: white;
 	background: $color__brand-green;
 }
+
