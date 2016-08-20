@@ -48,8 +48,8 @@ get_header(); ?>
 	   		<div class="journal-block-image"><?php the_post_thumbnail(); ?></div> 
 	   		<div class="journal-block-info">
 			
-		   			<p><?php the_date(); ?></p>
-
+		   			<p><?php the_date(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
+				
 				<a><h1><?php the_title(); ?></h1></a>
 
 				<a href="<?php the_permalink(); ?>"><div class="read-entry">read entry</div></a>
@@ -58,15 +58,30 @@ get_header(); ?>
 		</div>
    		<?php endforeach; wp_reset_postdata(); ?>
 	</div>
-	<div class="latest-adventures">Latest Adventures</div>
+	<div class="latest-adventures"><h1>Latest Adventures</h1>
 		<div class="adventures-container">
 			<div class="leftside-adventures">
-				<div class="rightside-adventures">
+				<p>Getting Back to Nature in a Canoe</p>
+				<span class="static-read-more">Read More</span>
+			</div>
+
+			<div class="rightside-adventures">
+				<div class="rightside-top-adventure"> 
+				<p>A Night with Friends at the Beach</p>
+				<span class="static-read-more">Read More</span>
+				</div>
+				<div class="bottom-left-rightside-adventure">
+				<p>Taking in the View at Big Mountain</p>
+				<span class="static-read-more">Read More</span>
+				</div>
+				<div class="bottom-right-rightside-adventure">
+				<p>Star-Gazing at the Night Sky</p>
+				<span class="static-read-more">Read More</span>
+				</div>
 			</div>
 		</div>
-
-
-
+		<p class="more-adventures"> More Adventures</p>
+	</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
