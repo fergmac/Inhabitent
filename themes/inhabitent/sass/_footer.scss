@@ -39,12 +39,13 @@
 .contact-info,
 .business-hours {
 	list-style: none;
-	// flex: 1 0 25%;
+	min-width: 100%;
 
 }
 
 .contact-info {
 	line-height: 2rem;
+	
 }
 
 .brand-image-container {

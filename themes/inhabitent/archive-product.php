@@ -16,11 +16,21 @@ get_header(); ?>
 				<div class="shop-stuff-header">
 				<div class="shop-title"><h1>Shop Stuff</h1></div>
 				<div class="product-list-style">
-				<ul>
-					<li><p><a href="<?php get_term_link(); ?>">Do</a></p></li>
-					<li><p><a href="<?php get_term_link(); ?>">Eat</a></p></li>
-					<li><p><a href="<?php get_term_link(); ?>">Sleep</a></p></li>
-					<li><p><a href="<?php get_term_link(); ?>">Wear</a></p></li>
+
+				<?php  //shop stuff on front page
+				$arg = array( 'taxonomy' => 'product-type', 'hide_empty' => true);
+
+				$terms = get_terms( $arg ); 
+				?>
+				<ul class="">
+				<?php foreach ( $terms as $term ) : ?>
+
+				<li><a href=" <?php echo get_term_link($term); ?> " ><?php echo $term->name
+				?></a></li> 
+	
+				<?php endforeach; ?>
+				</ul>
+					
 				<?php
 					
 					the_archive_description( '<div e="taxonomy-description">', '</div>' );
@@ -37,7 +47,7 @@ get_header(); ?>
 					<header class="entry-header">
 						
 							<div class="thumbnail-wrapper">
-							<a href="<?php get_permalink(); ?> ">
+							<a href="<?php echo get_permalink(); ?> ">
 						<?php if ( has_post_thumbnail() ) : ?>
 							<?php the_post_thumbnail( 'large' ); ?>
 						<?php endif; ?>

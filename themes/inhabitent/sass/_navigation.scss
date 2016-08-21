@@ -153,14 +153,14 @@ a {
 }
 
 .site-branding {
-	background: url('../../images/logos/inhabitent-logo-tent.svg');
-	background-size: 50px 30px;
+	// background: url('../../images/logos/inhabitent-logo-tent.svg');
+	// background-size: 50px 30px;
 	width: 50px;
 	height: 30px;
 }
 
 	.main-navigation {
-		display: block;
+		display: flex;
 		position: relative;
 
 		ul {
@@ -185,9 +185,7 @@ a {
 	}
 
 	.menu-toggle {
-		position: absolute;
-		right: 0;
-
+		display: none;
 	}
 
 

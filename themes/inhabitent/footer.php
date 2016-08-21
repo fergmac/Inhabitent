@@ -36,7 +36,7 @@
 					</div>
 					</div>
 					<div class="brand-image-container">
-						<a href="#"><img src="<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-text.svg"?>" class="brand-image" alt="Inhabitent logo"></a>	
+						<a href="http://localhost:3000/inhabitent/"><img src="<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-text.svg"?>" class="brand-image" alt="Inhabitent logo"></a>	
 					</div>
 				</div>
 				<div class="site-info">

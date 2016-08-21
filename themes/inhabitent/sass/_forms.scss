@@ -60,3 +60,25 @@ textarea {
 	padding-left: 3px;
 	width: 100%;
 }
+
+/* Search Form */
+
+fieldset {
+	border: none;
+}
+.search-form {
+	border-style: none;
+
+	.search-field {
+		display: none;
+	}
+	.search-submit {
+		border: none;
+		background: none;
+		box-shadow: none;
+	}
+}
+
+
+
+

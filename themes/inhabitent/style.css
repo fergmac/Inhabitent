@@ -445,6 +445,19 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
+/* Search Form */
+fieldset {
+  border: none; }
+
+.search-form {
+  border-style: none; }
+  .search-form .search-field {
+    display: none; }
+  .search-form .search-submit {
+    border: none;
+    background: none;
+    box-shadow: none; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -479,13 +492,12 @@ a {
   padding-right: 6rem; }
 
 .site-branding {
-  background: url("../../images/logos/inhabitent-logo-tent.svg");
-  background-size: 50px 30px;
   width: 50px;
   height: 30px; }
 
 .main-navigation {
-  display: block;
+  display: -ms-flexbox;
+  display: flex;
   position: relative; }
   .main-navigation ul {
     list-style: none; }
@@ -503,8 +515,7 @@ a {
     text-transform: uppercase; }
 
 .menu-toggle {
-  position: absolute;
-  right: 0; }
+  display: none; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -795,6 +806,7 @@ object {
     text-transform: uppercase; }
 
 .journal-block-info {
+  min-height: 160px;
   padding: 0rem 1rem;
   line-height: 1; }
   .journal-block-info a {
@@ -810,18 +822,19 @@ object {
   height: 70px; }
 
 .product-type-block {
-  height: 100%;
+  max-height: 100%;
   text-align: center;
   border: 1px solid #e1e1e1;
   max-width: 18%;
   margin-left: 1rem;
   padding: 1rem 1rem; }
-
-.product-type-block a {
-  text-transform: uppercase;
-  padding: .5rem 1rem;
-  color: white;
-  background: #248A83; }
+  .product-type-block a {
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    color: white;
+    background: #248A83; }
+  .product-type-block p {
+    min-height: 40%; }
 
 .latest-adventures h1 {
   text-align: center;
@@ -980,7 +993,8 @@ object {
 
 .contact-info,
 .business-hours {
-  list-style: none; }
+  list-style: none;
+  min-width: 100%; }
 
 .contact-info {
   line-height: 2rem; }
