@@ -596,6 +596,8 @@ a {
   width: 27%;
   border-left: 1px solid #e1e1e1;
   margin-right: 10%; }
+  .widget-area a {
+    color: #248A83; }
 
 .widget_archive ul {
   list-style: none;
@@ -617,9 +619,10 @@ body {
   padding-right: 5%;
   margin-left: 10%;
   height: 100%; }
-
-.site-main h2 {
-  text-align: center; }
+  .content-area h1 {
+    text-transform: uppercase; }
+  .content-area h2 {
+    text-transform: uppercase; }
 
 /* Blog Posts */
 .site-content {
@@ -633,10 +636,15 @@ body {
   position: relative;
   display: block;
   height: auto; }
+  .post a {
+    color: black; }
 
 .wp-post-image {
   height: 500px;
   width: 100%; }
+
+.entry-content {
+  height: 100%; }
 
 .entry-title {
   display: inline-block;
@@ -647,10 +655,10 @@ body {
   top: 10px;
   text-transform: uppercase;
   max-width: 75%;
-  margin-top: 2.25rem; }
-
-.entry-title a {
+  margin-top: 2.25rem;
   color: white; }
+  .entry-title a {
+    color: white; }
 
 .entry-meta {
   position: absolute;
@@ -662,12 +670,17 @@ body {
   text-transform: uppercase; }
   .entry-meta .updated {
     display: none; }
+  .entry-meta a {
+    color: white; }
 
 .cat-links,
 .tags-links {
   display: inline-block;
   text-transform: uppercase;
   padding-right: 10px; }
+  .cat-links a,
+  .tags-links a {
+    color: #248A83; }
 
 .nav-previous,
 .nav-next {
@@ -690,6 +703,12 @@ body {
 .fa-twitter,
 .fa-pinterest {
   padding-right: .5rem; }
+
+.search-entry-title a {
+  color: #248A83;
+  text-decoration: none; }
+  .search-entry-title a a {
+    color: black; }
 
 /*--------------------------------------------------------------
 # Media
@@ -837,6 +856,10 @@ object {
     min-height: 40%; }
 
 .latest-adventures h1 {
+  text-align: center;
+  text-transform: uppercase; }
+
+.front-page-h2 {
   text-align: center;
   text-transform: uppercase; }
 
@@ -1039,6 +1062,10 @@ object {
 .comment-reply-title {
   display: block; }
 
+.logged-in-as,
+.comment-reply-link {
+  color: #248A83; }
+
 .comment-form-email,
 .comment-form-author {
   -ms-flex: 1 0 50%;
@@ -1073,3 +1100,7 @@ input.submit {
 .comment-body {
   border-bottom: 1px solid black;
   padding-bottom: 1rem 1rem; }
+
+.search-entry-title {
+  color: #248A83;
+  text-decoration: none; }

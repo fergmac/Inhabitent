@@ -45,21 +45,24 @@ body {
 }
 
 .content-area	 {
-  // width: 800px;
+  
   margin: 0 auto;
   display: block;
   flex-flow: row nowrap;
   justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  // width:73%;
+  
   margin-left: 10%;	
   height: 100%;
- 
+ 	h1 {
+	text-transform: uppercase;	
+	}
+	h2 {
+	text-transform: uppercase;
+	}
 }
-.site-main h2 {
-	text-align: center;
-}
+
 
 
 /* Blog Posts */
@@ -69,7 +72,7 @@ body {
 		height: 100%;
 		display: flex;
 		flex-flow: row nowrap;
-		// margin: 0 auto;
+		
 
 }
 
@@ -78,20 +81,23 @@ body {
 	position: relative;
 	display: block;
 	height: auto;
+	a {
+		color: black;
+	}
+
 
 }
 
 .wp-post-image {
 	height: 500px;
 	width: 100%;
-	
+
 }
 
 
-// .entry-content {
-
-// height: 375px;
-// }
+.entry-content {
+	height: 100%;
+}
 
 .entry-title {
 	display: inline-block;
@@ -103,12 +109,11 @@ body {
 	text-transform: uppercase;
 	max-width: 75%;
 	margin-top: 2.25rem;
-
-	
-	
-}
-.entry-title a{
 	color: white;
+		a{
+		color: white;
+
+	}
 
 }
 
@@ -123,6 +128,9 @@ body {
 	.updated {
 		display: none;
 	}
+	a{
+		color: white;
+	}
 }
 
 
@@ -132,6 +140,9 @@ body {
 	display: inline-block;
 	text-transform: uppercase;
 	padding-right: 10px;
+	a {
+	color: $color__brand-green;
+}
 }
 
 .nav-previous,
@@ -141,6 +152,7 @@ body {
 
 
 .read-more {
+
 	border: 1px solid black;
 	padding: .75rem 1.5rem;
 
@@ -162,3 +174,14 @@ body {
 .fa-pinterest {
 	padding-right:.5rem;
 }
+// Search Page
+
+.search-entry-title a{
+	color: $color__brand-green;
+	text-decoration: none;
+	 a{
+		color: black;
+
+	}
+}
+

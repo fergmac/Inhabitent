@@ -13,7 +13,7 @@ get_header(); ?>
 	<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg' ?>" class="inhabitent-about-logo" alt="Inhabitent About Logo">
 	
 	</div>
-	<h2>Shop Stuff</h2>
+	<h2 class="front-page-h2">Shop Stuff</h2>
 	<div class="shop-stuff-container">
 
 		<?php  //shop stuff on front page
@@ -35,7 +35,7 @@ get_header(); ?>
 		
 		<?php endforeach; ?>
 	</div>
-	<h2>Inhabitent Journal</h2>
+	<h2 class="front-page-h2">Inhabitent Journal</h2>
 	<div class="inhabitent-journal">
 		<?php //inhabitent journal posts on front page
 			$args = array( 'post_type' => 'post', 'posts_per_page'   => 3 );

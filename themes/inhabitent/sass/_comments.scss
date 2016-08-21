@@ -1,5 +1,6 @@
 // /* Comments */
 .comment-form {
+	
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -11,7 +12,11 @@
 .comment-reply-title {
 	display: block;
 }
+.logged-in-as,	
+.comment-reply-link {
+	color: $color__brand-green;
 
+}
 
 // textarea {
 // 	width: 100%;
