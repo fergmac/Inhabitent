@@ -75,3 +75,27 @@
 .taxonomy-title {
 	text-align: center;
 }
+
+//single product page
+
+.single-product-wrapper {
+
+	display: flex;
+	flex-flow: row nowrap;
+
+}
+
+.single-product-image-wrapper {
+
+	min-width: 70%;
+	flex: 1 0 50%;
+	
+}
+
+.single-product-info-wrapper {
+	flex: 1 0 50%;
+	margin-left: 2rem;
+	h1 {
+		color: $color__brand-orange;
+	}
+}

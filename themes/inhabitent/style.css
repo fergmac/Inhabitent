@@ -625,11 +625,17 @@ body {
   padding-top: 50px;
   padding-right: 5%;
   margin-left: 10%;
-  height: 100%; }
+  height: 100%;
+  font-size: 16px;
+  line-spacing: 1.5rem;
+  line-height: 1.75;
+  font-family: "Merriweather", sans-serif; }
   .content-area h1 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Novovento Sans Web", sans-serif; }
   .content-area h2 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Novovento Sans Web", sans-serif; }
 
 /* Blog Posts */
 .site-content {
@@ -648,7 +654,8 @@ body {
 
 .wp-post-image {
   height: 500px;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .entry-content {
   height: 100%; }
@@ -775,10 +782,6 @@ object {
 .gallery-caption {
   display: block; }
 
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/* Front page */
 .inhabitent-hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/home-hero.jpg") no-repeat;
@@ -999,6 +1002,24 @@ object {
 .taxonomy-title {
   text-align: center; }
 
+.single-product-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap; }
+
+.single-product-image-wrapper {
+  min-width: 70%;
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%; }
+
+.single-product-info-wrapper {
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%;
+  margin-left: 2rem; }
+  .single-product-info-wrapper h1 {
+    color: #d99054; }
+
 /* Footer */
 .site-footer {
   background: url("../../images/dark-wood@2x.png");
@@ -1075,6 +1096,11 @@ object {
 
 .comment-form-comment {
   width: 100%; }
+  .comment-form-comment textarea {
+    background: #f4f4f4; }
+
+input {
+  background: #f4f4f4; }
 
 .comment-reply-title {
   display: block; }

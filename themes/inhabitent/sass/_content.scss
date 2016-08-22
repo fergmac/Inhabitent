@@ -4,40 +4,6 @@
 
 /* Posts and pages */
 
-// .sticky {
-// 	display: block;
-// }
-
-// .hentry {
-// 	margin: 0 0 $base__space-unit;
-// }
-
-// .updated:not(.published){
-// 	display: none;
-// }
-
-// .single .byline,
-// .group-blog .byline {
-// 	display: inline;
-// }
-
-// .page-content,
-// .entry-content,
-// .entry-summary {
-// 	margin: $base__space-unit 0 0;
-// }
-
-// .page-links {
-// 	clear: both;
-// 	margin: 0 0 $base__space-unit;
-// }
-
-// /* Asides */
-
-// .blog .format-aside .entry-title,
-// .archive .format-aside .entry-title {
-// 	display: none;
-// }
 
 
 body {
@@ -52,14 +18,19 @@ body {
   justify-content: centre;
   padding-top: 50px;
   padding-right: 5%;
-  
   margin-left: 10%;	
   height: 100%;
+  font-size: 16px;
+  line-spacing: 1.5rem;
+  line-height: 1.75;
+  font-family: $main__font-family, $font__main;
  	h1 {
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	font-family: $accent__font-family, $font__main; 	
 	}
 	h2 {
 	text-transform: uppercase;
+	font-family: $accent__font-family, $font__main;
 	}
 }
 
@@ -76,7 +47,7 @@ body {
 
 }
 
-// moves blog titles inside of image
+
 .post {
 	position: relative;
 	display: block;
@@ -91,6 +62,7 @@ body {
 .wp-post-image {
 	height: 500px;
 	width: 100%;
+	overflow: hidden;
 
 }
 
@@ -125,6 +97,7 @@ body {
 	display: inline-block;
 	background: $color__brand-green;
 	text-transform: uppercase;
+	
 	.updated {
 		display: none;
 	}
@@ -164,7 +137,7 @@ body {
 
 .post-button {
 	text-transform: uppercase;
-	background: #fff;
+	background: $color__background-body;
 	border-radius: 0;
 	padding: .75rem 1.5rem;
 
@@ -174,6 +147,7 @@ body {
 .fa-pinterest {
 	padding-right:.5rem;
 }
+
 // Search Page
 
 .search-entry-title a{
