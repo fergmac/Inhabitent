@@ -25,121 +25,25 @@ a {
 	}
 }
 
-// /* Menus */
-
-// .main-navigation {
-// 	clear: both;
-// 	display: block;
-// 	float: left;
-// 	width: 100%;
-
-// 	ul {
-// 		display: none;
-// 		list-style: none;
-// 		margin: 0;
-// 		padding-left: 0;
-
-// 		ul {
-// 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-// 			float: left;
-// 			position: absolute;
-// 			top: $base__space-unit;
-// 			left: -999em;
-// 			z-index: 99999;
-
-// 			ul {
-// 				left: -999em;
-// 				top: 0;
-// 			}
-
-// 			li {
-// 				&:hover > ul,
-// 				&.focus > ul {
-// 					left: 100%;
-// 				}
-// 			}
-
-// 			a {
-// 				width: 200px;
-// 			}
-
-// 			:hover > a,
-// 			.focus > a {
-// 			}
-
-// 			a:hover,
-// 			a.focus {
-// 			}
-// 		}
-
-// 		li:hover > ul,
-// 		li.focus > ul {
-// 			left: auto;
-// 		}
-// 	}
-// 	li {
-// 		float: left;
-// 		position: relative;
-
-// 		&:hover > a,
-// 		&.focus > a {
-// 		}
-// 	}
-// 	a {
-// 		display: block;
-// 		text-decoration: none;
-// 	}
-
-// 	.current_page_item > a,
-// 	.current-menu-item > a,
-// 	.current_page_ancestor > a {
-// 	}
-// }
-
-/* Small menu. */
-// .menu-toggle,
-// .main-navigation.toggled ul {
-// 	display: block;
-// }
-
-// @media screen and (min-width: 37.5em) {
-// 	.menu-toggle {
-// 		display: none;
-// 	}
-// 	.main-navigation ul {
-// 		display: block;
-// 	}
-// }
-
-// .comment-navigation,
-// .posts-navigation,
-// .post-navigation {
-
-// 	.site-main & {
-// 		margin: 0 0 $base__space-unit;
-// 		overflow: hidden;
-// 	}
-
-// 	.nav-previous {
-// 		float: left;
-// 		width: 50%;
-// 	}
-
-// 	.nav-next {
-// 		float: right;
-// 		text-align: right;
-// 		width: 50%;
-// 	}
-// }
-
-/*Logo*/
-
+.site-content {
+	margin-top: 57px;
+}
 .content-area {
   width: 900px;
   margin: 0 auto;
- 
+
+}
+
+.nav-adjust {
+	height: 50px;
+}
+.header-container {
+
+	  position: absolute;
+	  z-index: 1;
 }
 .site-header {
+	width:100%;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;	
@@ -147,14 +51,15 @@ a {
 	padding-top: .5rem;
 	padding-left: 6rem;
 	padding-right: 6rem;
-
-
+	position: fixed;
+	z-index: 0;
+	opacity: 0.7;
+	top: 0;
+	background: white;
 
 }
 
 .site-branding {
-	// background: url('../../images/logos/inhabitent-logo-tent.svg');
-	// background-size: 50px 30px;
 	width: 50px;
 	height: 30px;
 }

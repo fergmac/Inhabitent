@@ -473,13 +473,22 @@ a {
   a:hover, a:active {
     outline: 0; }
 
-/* Small menu. */
-/*Logo*/
+.site-content {
+  margin-top: 57px; }
+
 .content-area {
   width: 900px;
   margin: 0 auto; }
 
+.nav-adjust {
+  height: 50px; }
+
+.header-container {
+  position: absolute;
+  z-index: 1; }
+
 .site-header {
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
@@ -489,7 +498,12 @@ a {
   border-bottom: 1px solid #e1e1e1;
   padding-top: .5rem;
   padding-left: 6rem;
-  padding-right: 6rem; }
+  padding-right: 6rem;
+  position: fixed;
+  z-index: 0;
+  opacity: 0.7;
+  top: 0;
+  background: white; }
 
 .site-branding {
   width: 50px;
