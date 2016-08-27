@@ -22,6 +22,9 @@
 	a {
 		padding: 2rem 2rem;
 	}
+	a:hover {
+		color: #404040;
+	}
 	p {
 		text-align: center;
 	}
@@ -44,11 +47,28 @@
 
 .single-product-block {
 	padding: 1rem 1rem;
-	margin: 0;
 	flex: 1 0 25%;
-	.wp-post-image {
-	max-height: 250px;
+	max-width: 25%;
+
+	.thumbnail-wrapper {
+		position: relative;
+		overflow:hidden;
 	}
+
+	.wp-post-image {
+	right: 80%;
+	position: relative;
+	max-height: 250px;
+	max-width: none;
+	overflow: hidden;
+
+	img {
+		position: absolute;
+
+
+		}
+	}
+
 }
 .thumbnail-wrapper{
 	height: 250px;

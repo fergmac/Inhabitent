@@ -671,11 +671,6 @@ body {
   .post a {
     color: black; }
 
-.wp-post-image {
-  height: 500px;
-  width: 100%;
-  overflow: hidden; }
-
 .entry-content {
   height: 100%; }
 
@@ -993,6 +988,8 @@ object {
         justify-content: center; }
   .product-list-style a {
     padding: 2rem 2rem; }
+  .product-list-style a:hover {
+    color: #404040; }
   .product-list-style p {
     text-align: center; }
 
@@ -1011,11 +1008,20 @@ object {
 
 .single-product-block {
   padding: 1rem 1rem;
-  margin: 0;
   -ms-flex: 1 0 25%;
-      flex: 1 0 25%; }
+      flex: 1 0 25%;
+  max-width: 25%; }
+  .single-product-block .thumbnail-wrapper {
+    position: relative;
+    overflow: hidden; }
   .single-product-block .wp-post-image {
-    max-height: 250px; }
+    right: 80%;
+    position: relative;
+    max-height: 250px;
+    max-width: none;
+    overflow: hidden; }
+    .single-product-block .wp-post-image img {
+      position: absolute; }
 
 .thumbnail-wrapper {
   height: 250px;
