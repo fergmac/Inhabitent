@@ -72,6 +72,7 @@ a {
 			list-style: none;
 
 		}
+
 	}
 
 	#primary-menu {
@@ -87,11 +88,15 @@ a {
 			text-transform: uppercase;
 
 		}
+		a:hover {
+			color: #404040;
+		}
 	}
 
 	.menu-toggle {
 		display: none;
 	}
+
 
 
 

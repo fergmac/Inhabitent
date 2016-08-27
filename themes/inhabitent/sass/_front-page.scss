@@ -60,8 +60,13 @@
 		.read-entry {
 			display: inline-block;
 			padding: .75rem 1.5rem;
-			border: 1px solid #e1e1e1;
+			border: 1px solid #404040;
 			text-transform: uppercase;
+			color: #404040;
+			&:hover {
+				color: white;
+				background: $color__brand-green;
+			}
 
 		}		
 	}
@@ -75,12 +80,16 @@
 	}
 	h1 {
 		font-size: 1.5rem;
+		&:hover {
+			color: #404040;
+		}
 	}
 
 	 ul{
 	padding: 0;
 	text-align: left;
 	}
+
 }
 .product-type-block img{
 	width: 70px;
@@ -94,6 +103,9 @@
 	max-width: 18%;
 	margin-left: 1rem;
 	padding: 1rem 1rem;
+		a:hover{
+			background-color: #19625d;
+		}
 		a{
 		text-transform: uppercase;
 		padding: .5rem 1rem;
@@ -101,9 +113,13 @@
 		background: $color__brand-green;
 		}
 		p{
-		min-height: 40%;
+		min-height: 30%;
 
 		}
+		&:hover {
+		border: 1px solid #d99054;
+		border-top: 5px solid #d99054;
+	}
 }
 
 
@@ -200,5 +216,8 @@
 	margin-left: 8rem;
 	text-transform: uppercase;
 	padding: .5rem 1rem;
+	&:hover {
+		background-color: #19625d;
+	}
 }
 

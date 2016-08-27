@@ -66,16 +66,25 @@ textarea {
 fieldset {
 	border: none;
 }
+.fa-search {
+	color: $color__brand-green;
+
+}
 .search-form {
-	border-style: none;
+	// border-style: none;
 
 	.search-field {
-		display: none;
+		
+		font-size: 14px;
+		text-transform: uppercase;
+
+		
 	}
 	.search-submit {
 		border: none;
 		background: none;
 		box-shadow: none;
+
 	}
 }
 

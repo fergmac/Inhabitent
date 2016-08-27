@@ -449,14 +449,17 @@ textarea {
 fieldset {
   border: none; }
 
-.search-form {
-  border-style: none; }
-  .search-form .search-field {
-    display: none; }
-  .search-form .search-submit {
-    border: none;
-    background: none;
-    box-shadow: none; }
+.fa-search {
+  color: #248A83; }
+
+.search-form .search-field {
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.search-form .search-submit {
+  border: none;
+  background: none;
+  box-shadow: none; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -527,6 +530,8 @@ a {
   #primary-menu a {
     color: #248A83;
     text-transform: uppercase; }
+  #primary-menu a:hover {
+    color: #404040; }
 
 .menu-toggle {
   display: none; }
@@ -843,8 +848,12 @@ object {
   .inhabitent-journal-block .read-entry {
     display: inline-block;
     padding: .75rem 1.5rem;
-    border: 1px solid #e1e1e1;
-    text-transform: uppercase; }
+    border: 1px solid #404040;
+    text-transform: uppercase;
+    color: #404040; }
+    .inhabitent-journal-block .read-entry:hover {
+      color: white;
+      background: #248A83; }
 
 .journal-block-info {
   min-height: 160px;
@@ -854,6 +863,8 @@ object {
     font-size: 1rem; }
   .journal-block-info h1 {
     font-size: 1.5rem; }
+    .journal-block-info h1:hover {
+      color: #404040; }
   .journal-block-info ul {
     padding: 0;
     text-align: left; }
@@ -869,13 +880,18 @@ object {
   max-width: 18%;
   margin-left: 1rem;
   padding: 1rem 1rem; }
+  .product-type-block a:hover {
+    background-color: #19625d; }
   .product-type-block a {
     text-transform: uppercase;
     padding: .5rem 1rem;
     color: white;
     background: #248A83; }
   .product-type-block p {
-    min-height: 40%; }
+    min-height: 30%; }
+  .product-type-block:hover {
+    border: 1px solid #d99054;
+    border-top: 5px solid #d99054; }
 
 .latest-adventures h1 {
   text-align: center;
@@ -956,6 +972,8 @@ object {
   margin-left: 8rem;
   text-transform: uppercase;
   padding: .5rem 1rem; }
+  .more-adventures:hover {
+    background-color: #19625d; }
 
 .shop-stuff-header {
   text-align: center;
@@ -1073,6 +1091,8 @@ object {
 
 .contact-info {
   line-height: 2rem; }
+  .contact-info a:hover {
+    text-decoration: underline; }
 
 .brand-image-container {
   padding: 4rem 8rem; }

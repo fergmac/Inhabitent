@@ -45,6 +45,9 @@
 
 .contact-info {
 	line-height: 2rem;
+	a:hover {
+		text-decoration: underline;
+	}
 	
 }
 
@@ -54,8 +57,7 @@
 
 .brand-image {
 
-	// flex: 1 0 50%;
-	// background-size: 300px 60%;
+	
 	width: auto;
 	height: 60%;
 	
