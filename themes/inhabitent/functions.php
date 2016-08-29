@@ -90,7 +90,13 @@ function inhabitent_scripts() {
 	//wp_enqueue_script( 'inhabitent-font-awesome', 'https://use.fontawesome.com/d45ec2d9ad.js', array(), '4.6.3', false);
 
 	wp_enqueue_script('jquery');
-	// wp_enqueue_script('tent_comments', 	get_template_directory_uri() . '/js/theme-scripts.js', array('jquery'), false, true );
+	wp_deregister_script('jquery');
+  	wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js", false, null);
+ 	wp_enqueue_script('jquery');
+	
+
+
+	wp_enqueue_script('theme-script', 	get_template_directory_uri() . '/build/js/theme-scripts.min.js', array('jquery'), false, true );
 
 	// wp_localize_script('tent_comments', 'comment_vars', array(
 	// 		'rest_url' => rest_url(),

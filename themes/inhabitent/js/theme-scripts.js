@@ -1,6 +1,6 @@
 
 
-// $(function() {
+$(function() {
 
 var searchButton = $('.search-submit');
 var searchBar = $('.search-field');
@@ -37,4 +37,4 @@ $('body').on('click', function(event) {
   // });
 
 
-// }(jQuery));
+}(jQuery));

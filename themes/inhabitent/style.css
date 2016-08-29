@@ -548,8 +548,9 @@ a {
   #primary-menu a:hover {
     color: #404040; }
 
-.menu-toggle {
-  display: none; }
+.search-field {
+  display: none;
+  width: 200px; }
 
 /*--------------------------------------------------------------
 # Accessibility
