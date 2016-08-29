@@ -1,6 +1,6 @@
 .about-info {
 	display: block;
-	padding: 0 25%;
+	padding: 0 22%;
 
 	h2 {
 		text-align: center;
@@ -28,9 +28,9 @@
 .read-more {
 			display: inline-block;
 			padding: .75rem 1.5rem;
-			border: 1px solid #404040;
+			border: 1px solid $color__text-main;
 			text-transform: uppercase;
-			color: #404040;
+			color: $color__text-main;
 			&:hover {
 				color: white;
 				background: $color__brand-green;

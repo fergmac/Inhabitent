@@ -280,12 +280,8 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
-
-h2 {
-  margin-bottom: 3.75rem;
-  letter-spacing: .5rem;
-  font-size: 30px; }
+  clear: both;
+  font-family: "Novovento Sans Web", sans-serif; }
 
 /* Copy */
 p {
@@ -530,7 +526,7 @@ a {
 
 .site-branding {
   width: 50px;
-  height: 30px; }
+  height: 50px; }
 
 .main-navigation {
   display: -ms-flexbox;
@@ -540,6 +536,7 @@ a {
     list-style: none; }
 
 #primary-menu {
+  padding-top: .75rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
@@ -553,12 +550,19 @@ a {
   #primary-menu a:hover {
     color: #404040; }
 
-.search-field {
+.search-submit {
+  outline: none; }
+  .search-submit .fa-search {
+    font-size: 20px; }
+
+.search-form .search-field {
   display: none;
-  width: 200px; }
+  width: 200px;
+  border: none;
+  outline: none; }
 
 .admin-bar .site-header {
-  top: 25px; }
+  top: 22px; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -684,6 +688,8 @@ a {
   .content-area h2 {
     text-transform: uppercase;
     font-family: "Novovento Sans Web", sans-serif; }
+  .content-area p {
+    line-height: 1.75; }
 
 /* Blog Posts */
 .site-content {
@@ -691,7 +697,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+  line-height: 1.75; }
 
 .entry-header {
   position: relative; }
@@ -701,9 +708,6 @@ a {
   height: auto; }
   .post a {
     color: black; }
-
-.entry-content {
-  height: 100%; }
 
 .entry-title {
   display: inline-block;
@@ -737,6 +741,9 @@ a {
     display: none; }
   .entry-meta a {
     color: white; }
+
+.entry-content {
+  height: 100%; }
 
 .cat-links,
 .tags-links {
@@ -855,6 +862,11 @@ object {
   .inhabitent-hero .inhabitent-about-logo {
     -ms-flex-item-align: center;
         align-self: center; }
+
+.front-page-h2 {
+  margin-bottom: 3.75rem;
+  letter-spacing: .5rem;
+  font-size: 30px; }
 
 .shop-stuff-container {
   width: 1120px;
@@ -1196,7 +1208,7 @@ object {
 
 .about-info {
   display: block;
-  padding: 0 25%; }
+  padding: 0 22%; }
   .about-info h2 {
     text-align: center;
     text-transform: uppercase; }

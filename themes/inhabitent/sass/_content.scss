@@ -27,6 +27,9 @@
 	text-transform: uppercase;
 	font-family: $accent__font-family, $font__main;
 	}
+	p {
+		line-height: 1.75;
+	}
 }
 
 
@@ -38,7 +41,7 @@
 		height: 100%;
 		display: flex;	
 		flex-flow: row nowrap;
-		
+		line-height: 1.75;
 
 }
 
@@ -65,10 +68,7 @@
 // }
 
 
-.entry-content {
-	height: 100%;
-	
-}
+
 
 .entry-title {
 	display: inline-block;
@@ -114,7 +114,10 @@
 		color: white;
 	}
 }
+.entry-content {
+	height: 100%;
 
+}
 
 
 .cat-links,

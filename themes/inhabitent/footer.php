@@ -49,6 +49,6 @@
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
-		<script src="https://use.fontawesome.com/41a114f3c8.js"></script>
+		
 	</body>
 </html>
