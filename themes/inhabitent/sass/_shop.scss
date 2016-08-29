@@ -56,15 +56,14 @@
 	}
 
 	.wp-post-image {
-	right: 80%;
+	right: 20%;
 	position: relative;
-	max-height: 250px;
-	max-width: none;
-	overflow: hidden;
+	min-height: 250px;
+	max-width: 350px;
+	// overflow: hidden;
 
 	img {
 		position: absolute;
-
 
 		}
 	}

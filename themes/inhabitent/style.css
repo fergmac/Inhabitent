@@ -647,6 +647,9 @@ a {
     .widget ul a:hover {
       color: #404040; }
 
+.textwidget a:hover {
+  color: #404040; }
+
 /* Posts and pages */
 body {
   box-sizing: border-box; }
@@ -1042,11 +1045,10 @@ object {
     position: relative;
     overflow: hidden; }
   .single-product-block .wp-post-image {
-    right: 80%;
+    right: 20%;
     position: relative;
-    max-height: 250px;
-    max-width: none;
-    overflow: hidden; }
+    min-height: 250px;
+    max-width: 350px; }
     .single-product-block .wp-post-image img {
       position: absolute; }
 
