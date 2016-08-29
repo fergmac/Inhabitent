@@ -848,36 +848,41 @@ object {
         align-self: center; }
 
 .shop-stuff-container {
+  width: 1120px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
   .shop-stuff-container .product-type-block {
+    min-width: 23%;
     -ms-flex: 1 0 25%;
         flex: 1 0 25%;
-    border-top: 5px solid #e1e1e1; }
+    border-top: 5px solid #e1e1e1;
+    margin-left: 0; }
 
 .inhabitent-journal {
+  width: 1120px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
-  margin: 0rem 6rem;
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-  padding: 0 2rem; }
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
   .inhabitent-journal li {
     list-style: none; }
 
 .inhabitent-journal-block {
   display: block;
-  width: 30%;
-  border: 1px solid #e1e1e1;
-  margin: 1rem; }
+  max-width: 32%;
+  border: 1px solid #e1e1e1; }
   .inhabitent-journal-block h1 {
     color: #248A83; }
   .inhabitent-journal-block .wp-post-image {
-    height: 20%;
+    height: 250px;
     border-bottom: 5px solid #e1e1e1; }
   .inhabitent-journal-block .read-entry {
     display: inline-block;
@@ -890,9 +895,10 @@ object {
       background: #248A83; }
 
 .journal-block-info {
-  min-height: 160px;
+  min-height: 155px;
   padding: 0rem 1rem;
-  line-height: 1; }
+  line-height: 1;
+  letter-spacing: 2px; }
   .journal-block-info a {
     font-size: 1rem; }
   .journal-block-info h1 {

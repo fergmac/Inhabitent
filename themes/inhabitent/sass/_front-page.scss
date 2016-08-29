@@ -19,24 +19,31 @@
 
 
 .shop-stuff-container {
-	
+	width: 1120px;
+
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	
 
 	.product-type-block {
+		min-width: 23%;
 		flex: 1 0 25%;
 		border-top: 5px solid #e1e1e1;
+		margin-left: 0;
 
 	}
 }
 
 .inhabitent-journal {
+	width: 1120px;
+	margin: 0 auto;
 	display: flex;
-	margin: 0rem 6rem;
+
 	flex-flow: row nowrap;
-	padding: 0 2rem;
+	justify-content: space-between;
+
 
 	li{
 		list-style: none;
@@ -46,15 +53,15 @@
 
 .inhabitent-journal-block {
 		display: block;
-		width: 30%;
+		max-width: 32%;
 		border: 1px solid #e1e1e1;
-		margin: 1rem;
+		
 		h1 {
 			color: $color__brand-green;
 		}
 
 		.wp-post-image {
-			height: 20%;
+			height: 250px;
 			border-bottom: 5px solid #e1e1e1;
 		}
 		.read-entry {
@@ -72,9 +79,12 @@
 	}
 
 .journal-block-info {
-	min-height: 160px;
+	min-height: 155px;
 	padding: 0rem 1rem;
 	line-height: 1;
+	
+	letter-spacing: 2px;
+		
 	a {
 		font-size: 1rem;
 	}
