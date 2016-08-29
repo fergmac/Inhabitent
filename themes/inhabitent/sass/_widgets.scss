@@ -47,7 +47,9 @@
 	margin: 0;
 	a {
 		color: $color__brand-green;
+		&:hover {
+		color:  $color__text-main;
+		}
 	}
 }
-
 

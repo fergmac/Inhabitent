@@ -7,11 +7,29 @@
 		text-transform: uppercase;	
 	}
 }
-
+.search-entry-title {
+	a:hover {
+		color: $color__text-main;
+	}
+}
 .about-page-hero h1{
 	color: white;
 	text-transform: uppercase;
-	line-height: 1.25;
+	line-height: 1.40;
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 16%;
+	font-size: 3rem;
 }
+
+.read-more {
+			display: inline-block;
+			padding: .75rem 1.5rem;
+			border: 1px solid #404040;
+			text-transform: uppercase;
+			color: #404040;
+			&:hover {
+				color: white;
+				background: $color__brand-green;
+			}
+
+		}	

@@ -443,7 +443,8 @@ input[type="search"] {
 
 textarea {
   padding-left: 3px;
-  width: 100%; }
+  width: 100%;
+  background: #f4f4f4; }
 
 /* Search Form */
 fieldset {
@@ -460,6 +461,20 @@ fieldset {
   border: none;
   background: none;
   box-shadow: none; }
+
+/* find us */
+.wpcf7-submit {
+  padding: 3rem 3rem;
+  border: 1px solid #404040;
+  background: #248A83;
+  text-transform: uppercase;
+  color: red; }
+  .wpcf7-submit p {
+    background: red; }
+  .wpcf7-submit:hover {
+    box-shadow: none;
+    color: #404040;
+    background: #248A83; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -629,6 +644,8 @@ a {
   margin: 0; }
   .widget ul a {
     color: #248A83; }
+    .widget ul a:hover {
+      color: #404040; }
 
 /* Posts and pages */
 body {
@@ -1131,12 +1148,26 @@ object {
     text-align: center;
     text-transform: uppercase; }
 
+.search-entry-title a:hover {
+  color: #404040; }
+
 .about-page-hero h1 {
   color: white;
   text-transform: uppercase;
-  line-height: 1.25;
+  line-height: 1.40;
   text-align: center;
-  padding-top: 15%; }
+  padding-top: 16%;
+  font-size: 3rem; }
+
+.read-more {
+  display: inline-block;
+  padding: .75rem 1.5rem;
+  border: 1px solid #404040;
+  text-transform: uppercase;
+  color: #404040; }
+  .read-more:hover {
+    color: white;
+    background: #248A83; }
 
 .comment-form {
   display: -ms-flexbox;
