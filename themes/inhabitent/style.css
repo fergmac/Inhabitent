@@ -282,6 +282,11 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h2 {
+  margin-bottom: 3.75rem;
+  letter-spacing: .5rem;
+  font-size: 30px; }
+
 /* Copy */
 p {
   margin-bottom: 1.5em; }
@@ -551,6 +556,9 @@ a {
 .search-field {
   display: none;
   width: 200px; }
+
+.admin-bar .site-header {
+  top: 25px; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -842,7 +850,8 @@ object {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  margin-bottom: 4rem; }
   .inhabitent-hero .inhabitent-about-logo {
     -ms-flex-item-align: center;
         align-self: center; }
@@ -855,7 +864,8 @@ object {
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  margin-bottom: 4rem; }
   .shop-stuff-container .product-type-block {
     min-width: 23%;
     -ms-flex: 1 0 25%;
@@ -878,7 +888,8 @@ object {
 .inhabitent-journal-block {
   display: block;
   max-width: 32%;
-  border: 1px solid #e1e1e1; }
+  border: 1px solid #e1e1e1;
+  margin-bottom: 4rem; }
   .inhabitent-journal-block h1 {
     color: #248A83; }
   .inhabitent-journal-block .wp-post-image {
@@ -933,7 +944,7 @@ object {
     border: 1px solid #d99054;
     border-top: 5px solid #d99054; }
 
-.latest-adventures h1 {
+.latest-adventures h2 {
   text-align: center;
   text-transform: uppercase; }
 

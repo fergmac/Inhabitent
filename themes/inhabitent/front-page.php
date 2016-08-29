@@ -58,7 +58,7 @@ get_header(); ?>
 		</div>
    		<?php endforeach; wp_reset_postdata(); ?>
 	</div>
-	<div class="latest-adventures"><h1>Latest Adventures</h1>
+	<div class="latest-adventures"><h2>Latest Adventures</h2>
 		<div class="adventures-container">
 			<div class="leftside-adventures">
 				<p>Getting Back to Nature in a Canoe</p>
