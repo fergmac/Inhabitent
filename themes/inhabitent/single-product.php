@@ -25,9 +25,13 @@ get_header(); ?>
 					
 
 						
-								<?php echo CFS()->get( 'product_price' ); ?>
+								<p class="price"><?php echo CFS()->get( 'product_price' ); ?></p>
 								<?php the_content(); ?>
-						
+						<div class="social-buttons">
+				<button type="button" class="post-button"><i class="fa fa-facebook"  aria-hidden="true"></i>Like</button>
+				<button type="button" class="post-button"><i class="fa fa-twitter"  aria-hidden="true"></i>Tweet</button>
+				<button type="button" class="post-button"><i class="fa fa-pinterest"  aria-hidden="true"></i>Pin</button>
+			</div>
 						</div>
 						
 				</article><!-- #post-## -->

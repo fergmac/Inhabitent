@@ -7,11 +7,11 @@
 
 
 body {
-	box-sizing: border-box;
+	
 }
 
 .content-area	 {
-  
+  box-sizing: border-box;
   margin: 0 auto;
   display: block;
   flex-flow: row nowrap;
@@ -41,15 +41,17 @@ body {
 .site-content {	
 		
 		height: 100%;
-		display: flex;
+		display: flex;	
 		flex-flow: row nowrap;
 		
 
 }
 
-	
-.post {
+.entry-header {
 	position: relative;
+}	
+.post {
+	
 	display: block;
 	height: auto;
 	a {
@@ -69,6 +71,7 @@ body {
 
 .entry-content {
 	height: 100%;
+	
 }
 
 .entry-title {
@@ -84,19 +87,25 @@ body {
 	color: white;
 		a{
 		color: white;
+		&:hover {
+			color: $color__brand-yellow;
+		}
 
 	}
+
 
 }
 
 .wp-post-image {
 		min-width: 100%;
+		min-height: 100%;
+
 	}
 
 .entry-meta {
 	position: absolute;
 	right: 0;
-	top: 415px;
+	bottom: 10px;
 	color: white;
 	display: inline-block;
 	background: $color__brand-green;
@@ -140,6 +149,10 @@ body {
 
 .social-buttons {
 	padding: 1rem 0;
+	.post-buttons {
+		box-shadow: none;
+		background-color: transparent;
+	}
 }
 
 .post-button {

@@ -29,7 +29,7 @@ get_header(); ?>
 
 			<p><?php echo $term->description ?></p>
 
-			<a href=" <?php get_term_link($term); ?> " ><?php echo $term->name. ' Stuff'
+			<a href=" <?php echo get_term_link($term); ?> " ><?php echo $term->name. ' Stuff'
 			?></a> 
 		</div>
 		

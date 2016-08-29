@@ -3,6 +3,19 @@
 	
 	display: flex;
 	flex-flow: row wrap;
+	label{
+		text-transform: uppercase;
+	}
+	.submit {
+	background: $color__brand-green;
+	color: white;
+	border-radius: none;
+	padding: 1rem 2rem;
+	box-shadow: none;
+	text-transform: uppercase;
+	
+
+	}
 }
 .comment-form-comment {
 	width: 100%;
@@ -18,6 +31,7 @@ input {
 }
 .comment-reply-title {
 	display: block;
+	text-transform: uppercase;
 }
 .logged-in-as,	
 .comment-reply-link {
@@ -52,15 +66,7 @@ input {
 	color: $color__brand-orange;
 }
 
-input.submit {
-	background: $color__brand-green;
-	color: white;
-	border-radius: none;
-	padding: 1rem 2rem;
-	box-shadow: none;
-	text-transform: uppercase;
 
-}
 
 .comment-list {
 	list-style: none;

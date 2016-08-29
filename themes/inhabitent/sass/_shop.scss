@@ -1,6 +1,7 @@
 .shop-stuff-header {
 	text-align: center;
 	text-transform: uppercase;
+	border-bottom: 1px dotted  #c8c8c8;
 	a {
 		color: $color__brand-green;
 	}
@@ -39,6 +40,7 @@
 }
 
 .archive-product-grid {
+	padding-top: 2rem;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -75,10 +77,33 @@
 	border-bottom: 5px solid #e1e1e1;
 }
 .product-info {
+	display: flex;
+	justify-content: space-between;
 	border: 1px solid #e1e1e1;
 	padding: 1rem 1rem;
+	position: relative;
+	z-index: 999;
+	&:before {
+	content: '';
+	width: 50%;
+	right: 20%;
+	top: 55%;
+	border-bottom: 2px dotted black;
+	position: absolute;
+	z-index::0;
+	}
 	
 }
+
+.product-title,
+.product-price {
+	z-index: 999;
+	background: white;
+	
+	position: relative;
+}
+
+
 
 //taxonomy page
 
@@ -116,5 +141,11 @@
 	margin-left: 2rem;
 	h1 {
 		color: $color__brand-orange;
+		margin-top: 0;
 	}
+	.price {
+		font-weight: bold;
+		
+	}
+	
 }

@@ -12,13 +12,17 @@
 		color: $color__text-main;
 	}
 }
-.about-page-hero h1{
+.about-page-hero {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+
+	h1 {
 	color: white;
 	text-transform: uppercase;
-	line-height: 1.40;
-	text-align: center;
-	padding-top: 16%;
 	font-size: 3rem;
+	}	
 }
 
 .read-more {
