@@ -56,7 +56,7 @@ get_header(); ?>
 						<div class="product-info">
 						<?php the_title(); ?><?php echo CFS()->get( 'product_price' ); ?>
 
-						str.match(/[^ ,]+/g).join(<?php the_title(); ?>,<?php echo CFS()->get( 'product_price' ); ?>)
+						
 							
 						</div>
 						
