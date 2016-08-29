@@ -1248,10 +1248,14 @@ object {
   .comment-form .submit {
     background: #248A83;
     color: white;
-    border-radius: none;
-    padding: 1rem 2rem;
     box-shadow: none;
-    text-transform: uppercase; }
+    padding: 1rem 2rem;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .comment-form .submit:hover {
+      box-shadow: none;
+      background-color: #19625d; }
 
 .comment-form-comment {
   width: 100%; }

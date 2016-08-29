@@ -6,14 +6,19 @@
 	label{
 		text-transform: uppercase;
 	}
+	
 	.submit {
 	background: $color__brand-green;
 	color: white;
-	border-radius: none;
-	padding: 1rem 2rem;
 	box-shadow: none;
+	padding: 1rem 2rem;
+	border-radius: 0;
 	text-transform: uppercase;
-	
+	letter-spacing: 1px;
+	&:hover {
+		box-shadow: none;
+		background-color: #19625d;
+	}
 
 	}
 }
