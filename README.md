@@ -1,5 +1,5 @@
-![ScreenShot](inhabitent-screenshot.png)
-![Alt text](./inhabitent-screenshot.png?raw=true "Optional Title")
+![ScreenShot](/screenshots/inhabitent-screenshot.png)
+
 # Inhabitent Supply Co. 
 
 1. Use the CMS Wordpress to built out a multipage website
