@@ -1,5 +1,5 @@
-![ScreenShot](/inhabitent-screenshot.png)
-
+![ScreenShot](inhabitent-screenshot.png)
+![alt tag](inhabitent-screenshot.png)
 # Inhabitent Supply Co. 
 
 1. Use the CMS Wordpress to built out a multipage website
