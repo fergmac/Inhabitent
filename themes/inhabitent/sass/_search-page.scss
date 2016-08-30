@@ -4,3 +4,31 @@
 
 }
 
+
+.search-pagination {
+	padding: 2rem 0;
+	border-top: 1px solid #e1e1e1;
+}
+.page-numbers.current {
+	background-color: gray;
+}
+
+.page-numbers {
+	color: white;
+	margin-left: .5rem;
+	padding: 1rem, 2rem;
+	background: $color__brand-green;
+	padding-left: .75rem;
+	padding-right: .75rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	text-transform: uppercase;
+	&:hover {
+		color: white;
+		background: $color__text-main;
+	}
+	&:visited {
+		color: white;
+	}
+}
+

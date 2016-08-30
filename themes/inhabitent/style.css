@@ -466,15 +466,18 @@ fieldset {
 /* find us */
 .wpcf7-submit {
   padding: 3rem 3rem;
-  border: 1px solid #404040;
+  border: none;
+  border-radius: 0%;
   background: #248A83;
   text-transform: uppercase;
-  color: red; }
+  color: white;
+  text-shadow: none; }
   .wpcf7-submit p {
-    background: red; }
+    color: white; }
   .wpcf7-submit:hover {
+    text-shadow: none;
     box-shadow: none;
-    color: #404040;
+    color: white;
     background: #248A83; }
 
 /*--------------------------------------------------------------
@@ -493,7 +496,7 @@ a {
     outline: 0; }
 
 .site-content {
-  margin-top: 57px; }
+  margin-top: 63px; }
 
 .content-area {
   width: 900px;
@@ -515,7 +518,7 @@ a {
   -ms-flex-pack: justify;
       justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
-  padding-top: .5rem;
+  padding-top: .2rem;
   padding-left: 6rem;
   padding-right: 6rem;
   position: fixed;
@@ -665,6 +668,9 @@ a {
 .textwidget a:hover {
   color: #404040; }
 
+.day-of-week {
+  font-weight: bold; }
+
 /* Posts and pages */
 .content-area {
   box-sizing: border-box;
@@ -786,6 +792,9 @@ a {
 .fa-pinterest {
   padding-right: .5rem; }
 
+article {
+  padding-bottom: 2rem; }
+
 .search-entry-title a {
   color: #248A83;
   text-decoration: none; }
@@ -867,6 +876,10 @@ object {
   margin-bottom: 3.75rem;
   letter-spacing: .5rem;
   font-size: 30px; }
+
+.product-list-style ul {
+  padding: 0;
+  margin-left: 0; }
 
 .shop-stuff-container {
   width: 1120px;
@@ -1016,7 +1029,7 @@ object {
   -ms-flex: 1 0 46%;
       flex: 1 0 46%;
   margin-right: 1rem;
-  max-height: 250px;
+  max-height: 275px;
   margin-top: 1rem; }
 
 .bottom-right-rightside-adventure {
@@ -1024,7 +1037,7 @@ object {
   background-size: cover;
   -ms-flex: 1 0 50%;
       flex: 1 0 50%;
-  max-height: 250px;
+  max-height: 275px;
   margin-top: 1rem; }
 
 .more-adventures {
@@ -1326,3 +1339,26 @@ input {
 .search-entry-title {
   color: #248A83;
   text-decoration: none; }
+
+.search-pagination {
+  padding: 2rem 0;
+  border-top: 1px solid #e1e1e1; }
+
+.page-numbers.current {
+  background-color: gray; }
+
+.page-numbers {
+  color: white;
+  margin-left: .5rem;
+  padding: 1rem, 2rem;
+  background: #248A83;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-transform: uppercase; }
+  .page-numbers:hover {
+    color: white;
+    background: #404040; }
+  .page-numbers:visited {
+    color: white; }

@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<div id="primary" cla	ss="content-area">
+	<div id="primary" class="frontpage-content">
 		<main id="main" class="site-main" role="main">
 	<div class="inhabitent-hero">
 	<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg' ?>" class="inhabitent-about-logo" alt="Inhabitent About Logo">

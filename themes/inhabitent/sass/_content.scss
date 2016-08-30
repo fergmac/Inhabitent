@@ -60,15 +60,6 @@
 
 }
 
-// .wp-post-image {
-// 	height: 500px;
-// 	width: 100%;
-// 	overflow: hidden;
-
-// }
-
-
-
 
 .entry-title {
 	display: inline-block;
@@ -140,7 +131,7 @@
 
 
 .read-more {
-
+	
 	border: 1px solid black;
 	padding: .75rem 1.5rem;
 
@@ -170,6 +161,10 @@
 .fa-twitter,
 .fa-pinterest {
 	padding-right:.5rem;
+}
+
+article {
+	padding-bottom: 2rem;
 }
 
 // Search Page

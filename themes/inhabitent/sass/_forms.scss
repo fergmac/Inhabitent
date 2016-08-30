@@ -93,16 +93,19 @@ fieldset {
 
 .wpcf7-submit {
 	padding: 3rem 3rem;
-	border: 1px solid #404040;
+	border: none;
+	border-radius: 0%;
 	background: $color__brand-green;
 	text-transform: uppercase;
-	color: red;
+	color: white;
+	text-shadow: none;
 	p {
-		background: red;
+		color: white;
 	}
 	&:hover {
+		text-shadow:none;
 		box-shadow: none;	
-		color: #404040;
+		color: white;
 		background: $color__brand-green;
 	}
 }

@@ -27,7 +27,7 @@ get_header(); ?>
 					
 				<?php
 					
-					the_archive_description( '<div e="taxonomy-description">', '</div>' );
+					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 				</div>
 			</div>
@@ -38,7 +38,7 @@ get_header(); ?>
 			
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div class="single-product-block">
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>">
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="entry-header">
 						
 							<div class="thumbnail-wrapper">
