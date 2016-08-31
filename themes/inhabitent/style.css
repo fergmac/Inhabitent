@@ -385,38 +385,6 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-/* Buttons */
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
-  button:hover,
-  input[type="button"]:hover,
-  input[type="reset"]:hover,
-  input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
-  button:active, button:focus,
-  input[type="button"]:active,
-  input[type="button"]:focus,
-  input[type="reset"]:active,
-  input[type="reset"]:focus,
-  input[type="submit"]:active,
-  input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
-
 /* Fields */
 input[type="text"],
 input[type="email"],
@@ -465,20 +433,13 @@ fieldset {
 
 /* Find Us */
 .wpcf7-submit {
-  padding: 3rem 3rem;
+  padding: .5rem 2rem;
   border: none;
-  border-radius: 0%;
   background: #248A83;
   text-transform: uppercase;
-  color: white;
-  text-shadow: none; }
-  .wpcf7-submit p {
-    color: white; }
+  color: white; }
   .wpcf7-submit:hover {
-    text-shadow: none;
-    box-shadow: none;
-    color: white;
-    background: #248A83; }
+    background-color: #19625d; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -496,7 +457,7 @@ a {
     outline: 0; }
 
 .admin-bar .site-header {
-  top: 23px; }
+  top: 18px; }
 
 .nav-adjust {
   height: 50px; }
@@ -514,7 +475,6 @@ a {
   -ms-flex-pack: justify;
       justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
-  padding-top: .2rem;
   padding-left: 6rem;
   padding-right: 6rem;
   position: fixed;
@@ -539,8 +499,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-  padding-right: 2rem; }
+      flex-flow: row nowrap; }
   #primary-menu li {
     padding: 0rem 1rem; }
   #primary-menu a {
@@ -552,6 +511,7 @@ a {
 .search-submit {
   outline: none; }
   .search-submit .fa-search {
+    padding-top: .25rem;
     font-size: 20px; }
 
 .search-form .search-field {
@@ -760,6 +720,7 @@ object {
 
 .inhabitent-hero {
   height: 100vh;
+  margin-top: .5rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/home-hero.jpg") no-repeat;
   background-size: cover;
   display: -ms-flexbox;
@@ -1131,6 +1092,7 @@ object {
   color: #404040; }
 
 .about-page-hero {
+  margin-top: .5rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1163,7 +1125,7 @@ object {
     background: #248A83;
     color: white;
     box-shadow: none;
-    padding: 1rem 2rem;
+    padding: .5rem 1.5rem;
     border-radius: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -1321,7 +1283,7 @@ input {
   text-transform: uppercase;
   background: #fff;
   border-radius: 0;
-  padding: .75rem 1.75rem; }
+  padding: .5rem 1.5rem; }
   .post-button:hover {
     background: #248A83;
     box-shadow: none;

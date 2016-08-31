@@ -31,7 +31,7 @@ a {
 
 .admin-bar {
 	.site-header {
-	top: 23px;
+	top: 18px;
 	}
 }
 
@@ -48,7 +48,7 @@ a {
 	flex-flow: row nowrap;
 	justify-content: space-between;	
 	border-bottom:  $main__solid-border;
-	padding-top: .2rem;
+	// padding-top: 1rem;
 	padding-left: 6rem;
 	padding-right: 6rem;
 	position: fixed;
@@ -76,7 +76,7 @@ a {
 	padding-top: .75rem;
 	display: flex;
 	flex-flow: row nowrap;
-	padding-right: 2rem;
+	// padding-right: 2rem;
 	li {
 		padding: 0rem 1rem;
 	}
@@ -92,6 +92,7 @@ a {
 .search-submit {
 	outline: none;
 	.fa-search {
+		padding-top: .25rem;
 		font-size: 20px;
 	}
 }
