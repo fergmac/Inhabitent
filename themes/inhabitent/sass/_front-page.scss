@@ -82,9 +82,12 @@
 			height: 250px;
 			border-bottom: 5px solid #e1e1e1;
 		}
+		a {
+			text-transform: uppercase;
+		}
 		.read-entry {
 			display: inline-block;
-			padding: .75rem 1.5rem;
+			padding: .75rem 1rem;
 			border: 1px solid #404040;
 			text-transform: uppercase;
 			color: #404040;
@@ -106,7 +109,7 @@
 		font-size: 1rem;
 	}
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		&:hover {
 			color: #404040;
 		}
@@ -151,9 +154,15 @@
 
 
 //Latest Adventures
-.latest-adventures h2{
+.latest-adventures {
+	line-height: 1.2;
+
+	h2{
 	text-align: center;
 	text-transform: uppercase;
+	
+	}
+	
 }
 .front-page-h2 {
 	text-align: center;
@@ -165,7 +174,8 @@
 	flex-flow: row nowrap;
 	margin: 0 8rem;
 	height: 500px;
-	padding-bottom: 1rem;
+
+
 	.static-read-more {
 		border: 1px solid;
 		color: white;
@@ -178,7 +188,7 @@
 		color: white;
 		margin-left: 1rem;
 		letter-spacing: 2px;
-		font-size: 30px;
+		font-size: 32px;
 
 	}
 
@@ -190,9 +200,7 @@
 	url('../../images/adventure-photos/canoe-girl.jpg');
 	background-size: cover;
 	height: 100%;
-
 	flex: 1 0 50%;
-	
 	margin-right: 1rem;
 }
 

@@ -490,7 +490,9 @@ a {
 .main-navigation {
   display: -ms-flexbox;
   display: flex;
-  position: relative; }
+  position: relative;
+  margin-top: .5rem;
+  max-height: 45px; }
   .main-navigation ul {
     list-style: none; }
 
@@ -785,9 +787,11 @@ object {
   .inhabitent-journal-block .wp-post-image {
     height: 250px;
     border-bottom: 5px solid #e1e1e1; }
+  .inhabitent-journal-block a {
+    text-transform: uppercase; }
   .inhabitent-journal-block .read-entry {
     display: inline-block;
-    padding: .75rem 1.5rem;
+    padding: .75rem 1rem;
     border: 1px solid #404040;
     text-transform: uppercase;
     color: #404040; }
@@ -803,7 +807,7 @@ object {
   .journal-block-info a {
     font-size: 1rem; }
   .journal-block-info h1 {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
     .journal-block-info h1:hover {
       color: #404040; }
   .journal-block-info ul {
@@ -834,9 +838,11 @@ object {
     border: 1px solid #d99054;
     border-top: 5px solid #d99054; }
 
-.latest-adventures h2 {
-  text-align: center;
-  text-transform: uppercase; }
+.latest-adventures {
+  line-height: 1.2; }
+  .latest-adventures h2 {
+    text-align: center;
+    text-transform: uppercase; }
 
 .front-page-h2 {
   text-align: center;
@@ -848,8 +854,7 @@ object {
   -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
   margin: 0 8rem;
-  height: 500px;
-  padding-bottom: 1rem; }
+  height: 500px; }
   .adventures-container .static-read-more {
     border: 1px solid;
     color: white;
@@ -861,7 +866,7 @@ object {
     color: white;
     margin-left: 1rem;
     letter-spacing: 2px;
-    font-size: 30px; }
+    font-size: 32px; }
 
 .leftside-adventures {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/adventure-photos/canoe-girl.jpg");
@@ -1015,7 +1020,7 @@ object {
       flex-flow: row nowrap; }
 
 .single-product-image-wrapper {
-  min-width: 70%;
+  min-width: 50%;
   -ms-flex: 1 0 50%;
       flex: 1 0 50%; }
 
@@ -1239,7 +1244,7 @@ input {
 
 .wp-post-image {
   min-width: 100%;
-  min-height: 100%; }
+  min-height: auto; }
 
 .entry-meta {
   position: absolute;

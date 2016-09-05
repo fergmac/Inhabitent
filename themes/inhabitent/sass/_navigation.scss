@@ -48,7 +48,6 @@ a {
 	flex-flow: row nowrap;
 	justify-content: space-between;	
 	border-bottom:  $main__solid-border;
-	// padding-top: 1rem;
 	padding-left: 6rem;
 	padding-right: 6rem;
 	position: fixed;
@@ -67,6 +66,8 @@ a {
 .main-navigation {
 	display: flex;
 	position: relative;
+	margin-top: .5rem;
+	max-height: 45px;
 	ul {
 		list-style: none;
 	}
@@ -76,7 +77,6 @@ a {
 	padding-top: .75rem;
 	display: flex;
 	flex-flow: row nowrap;
-	// padding-right: 2rem;
 	li {
 		padding: 0rem 1rem;
 	}
