@@ -22,10 +22,13 @@
 
 	display: flex;
 	flex-flow: column nowrap;
-	padding-left: 5%;
-	width: 27%;
+	padding-left: 3%;
+	width: 35%;
 	border-left: $main__solid-border;
-	margin-right: 10%;
+	margin-right: 5%;
+	padding-top: 35px;
+	line-height: 1.25rem;
+	letter-spacing: .5px;
 
 	a{
 		color: $color__brand-green;

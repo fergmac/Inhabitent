@@ -595,10 +595,13 @@ a {
   display: flex;
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-  padding-left: 5%;
-  width: 27%;
+  padding-left: 3%;
+  width: 35%;
   border-left: 1px solid #e1e1e1;
-  margin-right: 10%; }
+  margin-right: 5%;
+  padding-top: 35px;
+  line-height: 1.25rem;
+  letter-spacing: .5px; }
   .widget-area a {
     color: #248A83; }
   .widget-area .widget-title {
@@ -637,9 +640,9 @@ a {
       flex-flow: row nowrap;
   -ms-flex-pack: centre;
       justify-content: centre;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 5%;
-  margin-left: 5%;
+  margin-left: 10%;
   height: 100%;
   font-size: 16px;
   line-spacing: 1.5rem;
@@ -916,7 +919,8 @@ object {
 .shop-stuff-header {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 1px dotted  #c8c8c8; }
+  border-bottom: 1px dotted  #c8c8c8;
+  padding: 2rem 0; }
   .shop-stuff-header a {
     color: #248A83; }
 
@@ -1244,7 +1248,8 @@ input {
   color: white;
   display: inline-block;
   background: #248A83;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 0 1rem; }
   .entry-meta .updated {
     display: none; }
   .entry-meta a {
