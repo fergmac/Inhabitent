@@ -1,4 +1,4 @@
-
+![Alt text](./screenshots/inhabitent-screenshot.png)
 
 # Inhabitent Supply Co. 
 
