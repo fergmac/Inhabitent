@@ -70,6 +70,13 @@
 	text-transform: uppercase;
 	text-align: center;
 	align-content: flex-end;
+	.container {
+		p {
+		font-family: $accent__font-family, sans-serif;
+		font-size: 14px;
+		padding-bottom: 1rem;
+		}
+	}
 }
 
 

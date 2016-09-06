@@ -85,8 +85,11 @@
 }
 
 .read-more {
+	font-family: $accent__font-family, sans-serif;
 	border: 1px solid black;
 	padding: .75rem 1.5rem;
+	font-size: 14px;
+	
 }
 
 .social-buttons {

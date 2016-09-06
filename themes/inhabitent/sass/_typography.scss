@@ -22,9 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Copy */
+a {
+	font-family: $accent__font-family, sans-serif;
+}
 
 p {
+	font-size: 18px;
 	margin-bottom: $base__space-unit;
+	font-family: $main__font-family;
 }
 
 dfn, cite, em, i {
