@@ -1,6 +1,6 @@
-![Alt text](./screenshots/inhabitent.png)
+# Inhabitent Supply Co.
 
-# Inhabitent Supply Co. 
+![Alt text](./screenshots/inhabitent.png) 
 
 1. Use the CMS Wordpress to built out a multipage website
 2. using a custom starter theme 
